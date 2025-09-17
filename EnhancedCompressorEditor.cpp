@@ -734,7 +734,7 @@ void EnhancedCompressorEditor::resized()
             fetPanel.releaseKnob->setBounds(releaseArea.reduced(15, 0));
         
         if (fetPanel.ratioButtons)
-            fetPanel.ratioButtons->setBounds(fetBounds.removeFromTop(50).reduced(50, 10));
+            fetPanel.ratioButtons->setBounds(fetBounds.removeFromTop(65).reduced(30, 5));  // Larger buttons, less reduction
     }
     
     // Layout VCA panel
