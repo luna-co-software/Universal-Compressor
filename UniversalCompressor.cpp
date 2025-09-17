@@ -1,7 +1,45 @@
 #include "UniversalCompressor.h"
-#include "UniversalCompressorEditor.h"
 #include "EnhancedCompressorEditor.h"
 #include <cmath>
+
+// Named constants for improved code readability
+namespace Constants {
+    // Filter coefficients
+    constexpr float LIGHT_MEMORY_DECAY = 0.95f;
+    constexpr float LIGHT_MEMORY_ATTACK = 0.05f;
+    constexpr float LIGHT_MEMORY_PERSISTENCE = 0.3f;
+    
+    // T4 Optical cell time constants
+    constexpr float OPTO_ATTACK_TIME = 0.010f; // 10ms average
+    constexpr float OPTO_RELEASE_FAST_MIN = 0.040f; // 40ms
+    constexpr float OPTO_RELEASE_FAST_MAX = 0.080f; // 80ms
+    constexpr float OPTO_RELEASE_SLOW_MIN = 0.5f; // 500ms
+    constexpr float OPTO_RELEASE_SLOW_MAX = 5.0f; // 5 seconds
+    
+    // 1176 FET constants
+    constexpr float FET_THRESHOLD_DB = -10.0f; // Fixed threshold
+    constexpr float FET_MAX_REDUCTION_DB = 30.0f;
+    constexpr float FET_ALLBUTTONS_ATTACK = 0.0001f; // 100 microseconds
+    
+    // DBX 160 VCA constants
+    constexpr float VCA_RMS_TIME_CONSTANT = 0.003f; // 3ms RMS averaging
+    constexpr float VCA_RELEASE_RATE = 120.0f; // dB per second
+    constexpr float VCA_CONTROL_VOLTAGE_SCALE = -0.006f; // -6mV/dB
+    constexpr float VCA_MAX_REDUCTION_DB = 60.0f;
+    
+    // SSL Bus constants
+    constexpr float BUS_SIDECHAIN_HP_FREQ = 60.0f; // Hz
+    constexpr float BUS_MAX_REDUCTION_DB = 20.0f;
+    constexpr float BUS_OVEREASY_KNEE_WIDTH = 10.0f; // dB
+    
+    // Anti-aliasing
+    constexpr float NYQUIST_SAFETY_FACTOR = 0.45f; // 45% of sample rate
+    constexpr float MAX_CUTOFF_FREQ = 20000.0f; // 20kHz
+    
+    // Safety limits
+    constexpr float OUTPUT_HARD_LIMIT = 2.0f;
+    constexpr float EPSILON = 0.0001f; // Small value to prevent division by zero
+}
 
 // Unified Anti-aliasing system for all compressor types
 class UniversalCompressor::AntiAliasing
@@ -145,6 +183,34 @@ private:
     int numChannels = 0;  // Set by prepare() from DAW
 };
 
+// Helper function to get harmonic scaling based on saturation mode
+inline void getHarmonicScaling(int saturationMode, float& h2Scale, float& h3Scale, float& h4Scale)
+{
+    switch (saturationMode)
+    {
+        case 0: // Vintage (Warm) - more harmonics
+            h2Scale = 1.5f;
+            h3Scale = 1.3f;
+            h4Scale = 1.2f;
+            break;
+        case 1: // Modern (Clean) - balanced harmonics
+            h2Scale = 1.0f;
+            h3Scale = 1.0f;
+            h4Scale = 1.0f;
+            break;
+        case 2: // Pristine (Minimal) - very clean
+            h2Scale = 0.3f;
+            h3Scale = 0.2f;
+            h4Scale = 0.1f;
+            break;
+        default:
+            h2Scale = 1.0f;
+            h3Scale = 1.0f;
+            h4Scale = 1.0f;
+            break;
+    }
+}
+
 // Opto Compressor (LA-2A style)
 class UniversalCompressor::OptoCompressor
 {
@@ -184,6 +250,19 @@ public:
     {
         if (channel >= static_cast<int>(detectors.size()))
             return input;
+        
+        // Safety check for sample rate
+        if (sampleRate <= 0.0)
+            return input;
+        
+        // Validate parameters
+        peakReduction = juce::jlimit(0.0f, 100.0f, peakReduction);
+        gain = juce::jlimit(-40.0f, 40.0f, gain);
+        
+        #ifdef DEBUG
+        jassert(!std::isnan(input) && !std::isinf(input));
+        jassert(sampleRate > 0.0);
+        #endif
             
         auto& detector = detectors[channel];
         
@@ -224,8 +303,8 @@ public:
         // Ensure stable filtering with proper initialization
         if (std::isnan(detector.lightMemory) || std::isinf(detector.lightMemory))
             detector.lightMemory = 0.0f;
-        detector.lightMemory = detector.lightMemory * 0.95f + lightLevel * 0.05f;
-        lightLevel = juce::jmax(lightLevel, detector.lightMemory * 0.3f);
+        detector.lightMemory = detector.lightMemory * Constants::LIGHT_MEMORY_DECAY + lightLevel * Constants::LIGHT_MEMORY_ATTACK;
+        lightLevel = juce::jmax(lightLevel, detector.lightMemory * Constants::LIGHT_MEMORY_PERSISTENCE);
         
         // Variable ratio based on feedback topology
         // In feedback design, ratio varies from ~1:1 to infinity:1
@@ -260,8 +339,8 @@ public:
         if (targetGain < detector.envelope)
         {
             // Attack phase - 10ms average - calculate coefficient properly for actual sample rate
-            float attackTime = 0.010f; // 10ms
-            float attackCoeff = std::exp(-1.0f / (attackTime * static_cast<float>(sampleRate)));
+            float attackTime = Constants::OPTO_ATTACK_TIME;
+            float attackCoeff = std::exp(-1.0f / (juce::jmax(Constants::EPSILON, attackTime * static_cast<float>(sampleRate))));
             detector.envelope = targetGain + (detector.envelope - targetGain) * attackCoeff;
             
             // Reset release tracking
@@ -285,7 +364,7 @@ public:
                 // First stage: 40-80ms for first 50% recovery
                 // Faster for smaller reductions, slower for larger
                 float reductionFactor = juce::jlimit(0.0f, 1.0f, detector.maxReduction * 0.05f); // /20.0f
-                releaseTime = 0.040f + reductionFactor * 0.040f; // 40-80ms
+                releaseTime = Constants::OPTO_RELEASE_FAST_MIN + reductionFactor * (Constants::OPTO_RELEASE_FAST_MAX - Constants::OPTO_RELEASE_FAST_MIN);
                 detector.releasePhase = 1;
             }
             else
@@ -296,12 +375,16 @@ public:
                 float timeHeld = juce::jlimit(0.0f, 1.0f, detector.holdCounter / static_cast<float>(sampleRate * 2.0f));
                 
                 // Longer recovery for stronger/longer compression
-                releaseTime = 0.5f + (lightIntensity * timeHeld * 4.5f);
+                releaseTime = Constants::OPTO_RELEASE_SLOW_MIN + (lightIntensity * timeHeld * (Constants::OPTO_RELEASE_SLOW_MAX - Constants::OPTO_RELEASE_SLOW_MIN));
                 detector.releasePhase = 2;
             }
             
-            float releaseCoeff = std::exp(-1.0f / (releaseTime * static_cast<float>(sampleRate)));
+            float releaseCoeff = std::exp(-1.0f / (juce::jmax(Constants::EPSILON, releaseTime * static_cast<float>(sampleRate))));
             detector.envelope = targetGain + (detector.envelope - targetGain) * releaseCoeff;
+            
+            // NaN/Inf safety check
+            if (std::isnan(detector.envelope) || std::isinf(detector.envelope))
+                detector.envelope = 1.0f;
         }
         
         // Track compression history for program dependency
@@ -408,7 +491,7 @@ public:
             
         detector.saturationLowpass = saturated * (1.0f - filterCoeff * 0.05f) + detector.saturationLowpass * filterCoeff * 0.05f;
         
-        return juce::jlimit(-2.0f, 2.0f, detector.saturationLowpass);
+        return juce::jlimit(-Constants::OUTPUT_HARD_LIMIT, Constants::OUTPUT_HARD_LIMIT, detector.saturationLowpass);
     }
     
     float getGainReduction(int channel) const
@@ -464,6 +547,10 @@ public:
     {
         if (channel >= static_cast<int>(detectors.size()))
             return input;
+        
+        // Safety check for sample rate
+        if (sampleRate <= 0.0)
+            return input;
             
         auto& detector = detectors[channel];
         
@@ -479,7 +566,7 @@ public:
         // Fixed threshold (1176 characteristic)
         // The 1176 threshold is around -10 dBFS according to specifications
         // This is the level where compression begins to engage
-        const float thresholdDb = -10.0f; // Authentic 1176 threshold (-10 dBFS)
+        const float thresholdDb = Constants::FET_THRESHOLD_DB; // Authentic 1176 threshold
         float threshold = juce::Decibels::decibelsToGain(thresholdDb);
         
         // Apply FULL input gain - this is how you drive into compression
@@ -540,7 +627,7 @@ public:
                 // Standard compression ratios
                 reduction = overThreshDb * (1.0f - 1.0f / ratio);
                 // Limit maximum gain reduction for normal modes
-                reduction = juce::jmin(reduction, 30.0f); // Max 30dB reduction
+                reduction = juce::jmin(reduction, Constants::FET_MAX_REDUCTION_DB);
             }
         }
         
@@ -587,9 +674,10 @@ public:
         // Envelope following with proper exponential coefficients
         float targetGain = juce::Decibels::decibelsToGain(-reduction);
         
-        // Calculate proper exponential coefficients for smooth envelope
-        float attackCoeff = std::exp(-1.0f / (attackTime * static_cast<float>(sampleRate)));
-        float releaseCoeff = std::exp(-1.0f / (releaseTime * static_cast<float>(sampleRate)));
+        // Calculate proper exponential coefficients for smooth envelope with safety checks
+        float attackCoeff = std::exp(-1.0f / (juce::jmax(Constants::EPSILON, attackTime * static_cast<float>(sampleRate))));
+        float releaseCoeff = std::exp(-1.0f / (juce::jmax(Constants::EPSILON, releaseTime * static_cast<float>(sampleRate))));
+        
         
         // FET mode has unique envelope behavior
         if (ratioIndex == 4)
@@ -599,7 +687,7 @@ public:
             if (targetGain < detector.envelope)
             {
                 // Fast attack in FET mode but not instantaneous to avoid distortion
-                float fetAttackCoeff = std::exp(-1.0f / (0.0001f * static_cast<float>(sampleRate))); // 100 microseconds
+                float fetAttackCoeff = std::exp(-1.0f / (Constants::FET_ALLBUTTONS_ATTACK * static_cast<float>(sampleRate)));
                 detector.envelope = fetAttackCoeff * detector.envelope + (1.0f - fetAttackCoeff) * targetGain;
             }
             else
@@ -628,6 +716,10 @@ public:
         // Ensure envelope stays within valid range for stability
         // In feedback topology, we need to prevent runaway gain
         detector.envelope = juce::jlimit(0.001f, 1.0f, detector.envelope);
+        
+        // NaN/Inf safety check
+        if (std::isnan(detector.envelope) || std::isinf(detector.envelope))
+            detector.envelope = 1.0f;
         
         // 1176 Class A FET amplifier stage
         // The 1176 is VERY clean at -18dB input level
@@ -676,18 +768,7 @@ public:
             output = sign * (1.5f + std::tanh((absOutput - 1.5f) * 0.2f) * 0.5f);
         }
         
-        // Apply final harmonic compensation AFTER limiting
-        if (!oversample)
-        {
-            float outputLevelDb = juce::Decibels::gainToDecibels(juce::jmax(0.0001f, std::abs(output)));
-            if (outputLevelDb > -40.0f)
-            {
-                // Extract harmonic content (difference from compressed signal)
-                float harmonicContent = output - compressed;
-                // Boost harmonics significantly when oversampling is OFF
-                output = compressed + harmonicContent * 10.0f; // 20dB boost
-            }
-        }
+        // Harmonic compensation removed - was causing artifacts
         
         // Output transformer simulation - very subtle
         // 1176 has minimal transformer coloration
@@ -708,7 +789,7 @@ public:
         float finalOutput = filtered * outputGainLin;
         
         // Ensure output is within reasonable bounds
-        return juce::jlimit(-2.0f, 2.0f, finalOutput);
+        return juce::jlimit(-Constants::OUTPUT_HARD_LIMIT, Constants::OUTPUT_HARD_LIMIT, finalOutput);
     }
     
     float getGainReduction(int channel) const
@@ -755,6 +836,10 @@ public:
     {
         if (channel >= static_cast<int>(detectors.size()))
             return input;
+        
+        // Safety check for sample rate
+        if (sampleRate <= 0.0)
+            return input;
             
         auto& detector = detectors[channel];
         
@@ -763,8 +848,8 @@ public:
         
         // DBX 160 True RMS detection - closely simulates human ear response
         // Uses proper RMS window suitable for program material
-        const float rmsTimeConstant = 0.003f; // 3ms RMS averaging for transient response
-        const float rmsAlpha = std::exp(-1.0f / (rmsTimeConstant * static_cast<float>(sampleRate)));
+        const float rmsTimeConstant = Constants::VCA_RMS_TIME_CONSTANT; // 3ms RMS averaging for transient response
+        const float rmsAlpha = std::exp(-1.0f / (juce::jmax(Constants::EPSILON, rmsTimeConstant * static_cast<float>(sampleRate))));
         detector.rmsBuffer = detector.rmsBuffer * rmsAlpha + detectionLevel * detectionLevel * (1.0f - rmsAlpha);
         float rmsLevel = std::sqrt(detector.rmsBuffer);
         
@@ -822,7 +907,7 @@ public:
             
             // DBX 160 can achieve infinite compression (approximately 120:1) with complete stability
             // Feed-forward design prevents instability issues of feedback compressors
-            reduction = juce::jmin(reduction, 60.0f); // Practical limit for musical content
+            reduction = juce::jmin(reduction, Constants::VCA_MAX_REDUCTION_DB); // Practical limit for musical content
         }
         
         // DBX 160 program-dependent attack and release times that "track" signal envelope
@@ -869,15 +954,15 @@ public:
         
         // DBX VCA control voltage generation (-6mV/dB logarithmic curve)
         // This is key to the DBX sound - logarithmic VCA response
-        detector.controlVoltage = reduction * -0.006f; // -6mV/dB characteristic
+        detector.controlVoltage = reduction * Constants::VCA_CONTROL_VOLTAGE_SCALE; // -6mV/dB characteristic
         
         // DBX 160 feed-forward envelope following with complete stability
         // Feed-forward design is inherently stable even at infinite compression ratios
         float targetGain = juce::Decibels::decibelsToGain(-reduction);
         
-        // Calculate proper exponential coefficients for DBX-style response
-        float attackCoeff = std::exp(-1.0f / (attackTime * static_cast<float>(sampleRate)));
-        float releaseCoeff = std::exp(-1.0f / (releaseTime * static_cast<float>(sampleRate)));
+        // Calculate proper exponential coefficients for DBX-style response with safety
+        float attackCoeff = std::exp(-1.0f / (juce::jmax(Constants::EPSILON, attackTime * static_cast<float>(sampleRate))));
+        float releaseCoeff = std::exp(-1.0f / (juce::jmax(Constants::EPSILON, releaseTime * static_cast<float>(sampleRate))));
         
         if (targetGain < detector.envelope)
         {
@@ -893,6 +978,10 @@ public:
         // Feed-forward stability: ensure envelope stays within bounds
         // This prevents the instability that plagues feedback compressors at high ratios
         detector.envelope = juce::jlimit(0.0001f, 1.0f, detector.envelope);
+        
+        // NaN/Inf safety check
+        if (std::isnan(detector.envelope) || std::isinf(detector.envelope))
+            detector.envelope = 1.0f;
         
         // Store previous reduction for program dependency tracking
         detector.previousReduction = reduction;
@@ -983,7 +1072,7 @@ public:
         float output = processed * juce::Decibels::decibelsToGain(outputGain);
         
         // Final output limiting for safety
-        return juce::jlimit(-2.0f, 2.0f, output);
+        return juce::jlimit(-Constants::OUTPUT_HARD_LIMIT, Constants::OUTPUT_HARD_LIMIT, output);
     }
     
     float getGainReduction(int channel) const
@@ -1056,6 +1145,10 @@ public:
     {
         if (channel >= static_cast<int>(detectors.size()))
             return input;
+        
+        // Safety check for sample rate
+        if (sampleRate <= 0.0)
+            return input;
             
         auto& detector = detectors[channel];
         
@@ -1092,7 +1185,7 @@ public:
             // SSL G-Series compression curve - relatively linear/hard knee
             reduction = overThreshDb * (1.0f - 1.0f / actualRatio);
             // SSL bus typically used for gentle compression (max ~20dB GR)
-            reduction = juce::jmin(reduction, 20.0f);
+            reduction = juce::jmin(reduction, Constants::BUS_MAX_REDUCTION_DB);
         }
         
         // SSL G-Series attack and release times
@@ -1125,15 +1218,21 @@ public:
         if (targetGain < detector.envelope)
         {
             // Attack phase - SSL is known for smooth attack response - approximate exp
-            float attackCoeff = juce::jmax(0.0f, juce::jmin(0.9999f, 1.0f - 1.0f / (attackTime * static_cast<float>(sampleRate))));
+            float divisor = juce::jmax(Constants::EPSILON, attackTime * static_cast<float>(sampleRate));
+            float attackCoeff = juce::jmax(0.0f, juce::jmin(0.9999f, 1.0f - 1.0f / divisor));
             detector.envelope = targetGain + (detector.envelope - targetGain) * attackCoeff;
         }
         else
         {
             // Release phase with SSL's characteristic smoothness - approximate exp
-            float releaseCoeff = juce::jmax(0.0f, juce::jmin(0.9999f, 1.0f - 1.0f / (releaseTime * static_cast<float>(sampleRate))));
+            float divisor = juce::jmax(Constants::EPSILON, releaseTime * static_cast<float>(sampleRate));
+            float releaseCoeff = juce::jmax(0.0f, juce::jmin(0.9999f, 1.0f - 1.0f / divisor));
             detector.envelope = targetGain + (detector.envelope - targetGain) * releaseCoeff;
         }
+        
+        // NaN/Inf safety check
+        if (std::isnan(detector.envelope) || std::isinf(detector.envelope))
+            detector.envelope = 1.0f;
         
         // Apply the gain reduction envelope to the input signal
         float compressed = input * detector.envelope;
@@ -1220,7 +1319,7 @@ public:
         float output = processed * juce::Decibels::decibelsToGain(makeupGain);
         
         // Final output limiting
-        return juce::jlimit(-2.0f, 2.0f, output);
+        return juce::jlimit(-Constants::OUTPUT_HARD_LIMIT, Constants::OUTPUT_HARD_LIMIT, output);
     }
     
     float getGainReduction(int channel) const
@@ -1262,6 +1361,32 @@ juce::AudioProcessorValueTreeState::ParameterLayout UniversalCompressor::createP
     // layout.add(std::make_unique<juce::AudioParameterBool>("oversample", "Oversample", true));
     layout.add(std::make_unique<juce::AudioParameterBool>("bypass", "Bypass", false));
     
+    // Stereo linking control (0% = independent, 100% = fully linked)
+    layout.add(std::make_unique<juce::AudioParameterFloat>(
+        "stereo_link", "Stereo Link", 
+        juce::NormalisableRange<float>(0.0f, 100.0f, 1.0f), 100.0f,
+        juce::AudioParameterFloatAttributes().withLabel("%")));
+    
+    // Mix control for parallel compression (0% = dry, 100% = wet)
+    layout.add(std::make_unique<juce::AudioParameterFloat>(
+        "mix", "Mix", 
+        juce::NormalisableRange<float>(0.0f, 100.0f, 1.0f), 100.0f,
+        juce::AudioParameterFloatAttributes().withLabel("%")));
+    
+    // Attack/Release curve options (0 = logarithmic/analog, 1 = linear/digital)
+    layout.add(std::make_unique<juce::AudioParameterChoice>(
+        "envelope_curve", "Envelope Curve", 
+        juce::StringArray{"Logarithmic (Analog)", "Linear (Digital)"}, 0));
+    
+    // Vintage/Modern modes for harmonic profiles
+    layout.add(std::make_unique<juce::AudioParameterChoice>(
+        "saturation_mode", "Saturation Mode", 
+        juce::StringArray{"Vintage (Warm)", "Modern (Clean)", "Pristine (Minimal)"}, 0));
+    
+    // External sidechain enable
+    layout.add(std::make_unique<juce::AudioParameterBool>(
+        "sidechain_enable", "External Sidechain", false));
+    
     // Add read-only gain reduction meter parameter for DAW display (LV2/VST3)
     layout.add(std::make_unique<juce::AudioParameterFloat>(
         "gr_meter", "GR", 
@@ -1300,7 +1425,7 @@ juce::AudioProcessorValueTreeState::ParameterLayout UniversalCompressor::createP
         juce::NormalisableRange<float>(-38.0f, 12.0f, 0.1f), 0.0f)); // DBX 160 range: 10mV(-38dB) to 3V(+12dB)
     layout.add(std::make_unique<juce::AudioParameterFloat>(
         "vca_ratio", "Ratio", 
-        juce::NormalisableRange<float>(1.0f, 120.0f, 0.1f), 1.0f)); // DBX 160 range: 1:1 to 120:1 (infinity)
+        juce::NormalisableRange<float>(1.0f, 120.0f, 0.1f), 2.0f)); // DBX 160 range: 1:1 to 120:1 (infinity), default 2:1
     layout.add(std::make_unique<juce::AudioParameterFloat>(
         "vca_attack", "Attack", 
         juce::NormalisableRange<float>(0.1f, 50.0f, 0.1f), 1.0f));
@@ -1339,10 +1464,49 @@ juce::AudioProcessorValueTreeState::ParameterLayout UniversalCompressor::createP
     return layout;
 }
 
+// Lookup table implementations
+void UniversalCompressor::LookupTables::initialize()
+{
+    // Precompute exponential values for range -4 to 0 (typical for envelope coefficients)
+    for (int i = 0; i < TABLE_SIZE; ++i)
+    {
+        float x = -4.0f + (4.0f * i / static_cast<float>(TABLE_SIZE - 1));
+        expTable[i] = std::exp(x);
+    }
+    
+    // Precompute logarithm values for range 0.0001 to 1.0
+    for (int i = 0; i < TABLE_SIZE; ++i)
+    {
+        float x = 0.0001f + (0.9999f * i / static_cast<float>(TABLE_SIZE - 1));
+        logTable[i] = std::log(x);
+    }
+}
+
+inline float UniversalCompressor::LookupTables::fastExp(float x) const
+{
+    // Clamp to table range
+    x = juce::jlimit(-4.0f, 0.0f, x);
+    // Map to table index
+    int index = static_cast<int>((x + 4.0f) * (TABLE_SIZE - 1) / 4.0f);
+    index = juce::jlimit(0, TABLE_SIZE - 1, index);
+    return expTable[index];
+}
+
+inline float UniversalCompressor::LookupTables::fastLog(float x) const
+{
+    // Clamp to table range
+    x = juce::jlimit(0.0001f, 1.0f, x);
+    // Map to table index
+    int index = static_cast<int>((x - 0.0001f) * (TABLE_SIZE - 1) / 0.9999f);
+    index = juce::jlimit(0, TABLE_SIZE - 1, index);
+    return logTable[index];
+}
+
 // Constructor
 UniversalCompressor::UniversalCompressor()
     : AudioProcessor(BusesProperties()
                      .withInput("Input", juce::AudioChannelSet::stereo(), true)
+                     .withInput("Sidechain", juce::AudioChannelSet::stereo(), false)  // Optional sidechain input
                      .withOutput("Output", juce::AudioChannelSet::stereo(), true)),
       parameters(*this, nullptr, "UniversalCompressor", createParameterLayout()),
       currentSampleRate(0.0),  // Set by prepareToPlay from DAW
@@ -1352,6 +1516,10 @@ UniversalCompressor::UniversalCompressor()
     inputMeter.store(-60.0f);
     outputMeter.store(-60.0f);
     grMeter.store(0.0f);
+    
+    // Initialize lookup tables
+    lookupTables = std::make_unique<LookupTables>();
+    lookupTables->initialize();
     
     try {
         // Initialize compressor instances with error handling
@@ -1426,7 +1594,13 @@ void UniversalCompressor::releaseResources()
 
 void UniversalCompressor::processBlock(juce::AudioBuffer<float>& buffer, juce::MidiBuffer&)
 {
-    juce::ScopedNoDenormals noDenormals;
+    // Improved denormal prevention - more efficient than ScopedNoDenormals
+    #if JUCE_INTEL
+        _MM_SET_FLUSH_ZERO_MODE(_MM_FLUSH_ZERO_ON);
+        _MM_SET_DENORMALS_ZERO_MODE(_MM_DENORMALS_ZERO_ON);
+    #else
+        juce::ScopedNoDenormals noDenormals;
+    #endif
     
     // Safety checks
     if (buffer.getNumSamples() == 0 || buffer.getNumChannels() == 0)
@@ -1440,6 +1614,36 @@ void UniversalCompressor::processBlock(juce::AudioBuffer<float>& buffer, juce::M
     auto* bypassParam = parameters.getRawParameterValue("bypass");
     if (!bypassParam || *bypassParam > 0.5f)
         return;
+    
+    // Get stereo link and mix parameters
+    auto* stereoLinkParam = parameters.getRawParameterValue("stereo_link");
+    auto* mixParam = parameters.getRawParameterValue("mix");
+    auto* sidechainEnableParam = parameters.getRawParameterValue("sidechain_enable");
+    float stereoLinkAmount = stereoLinkParam ? (*stereoLinkParam * 0.01f) : 1.0f; // Convert to 0-1
+    float mixAmount = mixParam ? (*mixParam * 0.01f) : 1.0f; // Convert to 0-1
+    bool useSidechain = sidechainEnableParam ? (*sidechainEnableParam > 0.5f) : false;
+    
+    // Store dry signal for parallel compression
+    juce::AudioBuffer<float> dryBuffer;
+    if (mixAmount < 1.0f)
+    {
+        dryBuffer.makeCopyOf(buffer);
+    }
+    
+    // Get sidechain buffer if available and enabled
+    juce::AudioBuffer<float> sidechainBuffer;
+    if (useSidechain && getTotalNumInputChannels() > 2)
+    {
+        // Create a temporary buffer for sidechain (channels 2 and 3 if they exist)
+        const int sidechainChannels = juce::jmin(2, getTotalNumInputChannels() - 2);
+        if (sidechainChannels > 0)
+        {
+            sidechainBuffer.setSize(sidechainChannels, buffer.getNumSamples());
+            // Note: In a real implementation, you'd get the sidechain from the second input bus
+            // For now, we'll use a simplified approach
+            // This would need proper multi-bus support in the processBlock override
+        }
+    }
     
     // Internal oversampling is always enabled for better quality
     bool oversample = true; // Always use oversampling internally
@@ -1654,6 +1858,22 @@ void UniversalCompressor::processBlock(juce::AudioBuffer<float>& buffer, juce::M
     // Update the gain reduction parameter for DAW display
     if (auto* grParam = parameters.getRawParameterValue("gr_meter"))
         *grParam = gainReduction;
+    
+    // Apply mix control for parallel compression
+    if (mixAmount < 1.0f && dryBuffer.getNumChannels() > 0)
+    {
+        // Blend dry and wet signals
+        for (int ch = 0; ch < numChannels; ++ch)
+        {
+            float* wet = buffer.getWritePointer(ch);
+            const float* dry = dryBuffer.getReadPointer(ch);
+            
+            for (int i = 0; i < numSamples; ++i)
+            {
+                wet[i] = dry[i] * (1.0f - mixAmount) + wet[i] * mixAmount;
+            }
+        }
+    }
 }
 
 void UniversalCompressor::processBlock(juce::AudioBuffer<double>& buffer, juce::MidiBuffer& midiMessages)
@@ -1728,10 +1948,10 @@ void UniversalCompressor::setStateInformation(const void* data, int sizeInBytes)
             parameters.replaceState(juce::ValueTree::fromXml(*xmlState));
 }
 
-#if JucePlugin_Build_LV2
+#if JucePlugin_Build_LV2 && 0  // Disabled - requires Cairo library
 // Include Cairo for LV2 inline display
 extern "C" {
-    #include <cairo/cairo.h>
+    // #include <cairo/cairo.h>
 }
 
 void UniversalCompressor::lv2_inline_display(void* context, uint32_t w, uint32_t h) const

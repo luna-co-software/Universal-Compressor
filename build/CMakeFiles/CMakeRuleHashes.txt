@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+e78ff772751863e98bd4df35f1e5607b UniversalCompressor_artefacts/JuceLibraryCode/JuceHeader.h

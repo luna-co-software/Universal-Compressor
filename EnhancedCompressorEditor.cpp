@@ -69,9 +69,9 @@ EnhancedCompressorEditor::EnhancedCompressorEditor(UniversalCompressor& p)
     startTimerHz(30);
     
     // Setup resizing
-    constrainer.setMinimumSize(700, 500);  // Minimum size
-    constrainer.setMaximumSize(1800, 1200); // Maximum size
-    constrainer.setFixedAspectRatio(900.0 / 600.0); // Keep aspect ratio
+    constrainer.setMinimumSize(500, 350);  // Minimum size
+    constrainer.setMaximumSize(1400, 1000); // Maximum size
+    constrainer.setFixedAspectRatio(700.0 / 500.0); // Keep aspect ratio matching default size
     
     // Create resizer component
     resizer = std::make_unique<juce::ResizableCornerComponent>(this, &constrainer);
@@ -79,7 +79,7 @@ EnhancedCompressorEditor::EnhancedCompressorEditor(UniversalCompressor& p)
     resizer->setAlwaysOnTop(true);
     
     // Set initial size - do this last so resized() is called after all components are created
-    setSize(900, 600);
+    setSize(700, 500);  // Comfortable size to fit all controls
     setResizable(true, false);  // Allow resizing, no native title bar
 }
 
@@ -235,7 +235,7 @@ void EnhancedCompressorEditor::setupVCAPanel()
     vcaPanel.thresholdKnob.reset(createKnob("Threshold", -40, 0, -12, " dB"));
     vcaPanel.ratioKnob.reset(createKnob("Ratio", 1, 20, 4, ":1"));
     vcaPanel.attackKnob.reset(createKnob("Attack", 0.1, 100, 1, " ms"));
-    vcaPanel.releaseKnob.reset(createKnob("Release", 10, 1000, 100, " ms"));
+    // DBX 160 has fixed release rate - no release knob needed
     vcaPanel.outputKnob.reset(createKnob("Output", -20, 20, 0, " dB"));
     vcaPanel.overEasyButton = std::make_unique<juce::ToggleButton>("Over Easy");
     
@@ -243,21 +243,21 @@ void EnhancedCompressorEditor::setupVCAPanel()
     vcaPanel.thresholdLabel.reset(createLabel("THRESHOLD"));
     vcaPanel.ratioLabel.reset(createLabel("RATIO"));
     vcaPanel.attackLabel.reset(createLabel("ATTACK"));
-    vcaPanel.releaseLabel.reset(createLabel("RELEASE"));
+    // No release label for DBX 160
     vcaPanel.outputLabel.reset(createLabel("OUTPUT"));
     
     // Add to container
     vcaPanel.container->addAndMakeVisible(vcaPanel.thresholdKnob.get());
     vcaPanel.container->addAndMakeVisible(vcaPanel.ratioKnob.get());
     vcaPanel.container->addAndMakeVisible(vcaPanel.attackKnob.get());
-    vcaPanel.container->addAndMakeVisible(vcaPanel.releaseKnob.get());
+    // No release knob for DBX 160
     vcaPanel.container->addAndMakeVisible(vcaPanel.outputKnob.get());
     // Note: overEasyButton is added to main editor, not container, so it can be in top row
     addChildComponent(vcaPanel.overEasyButton.get());  // Add to main editor as child component
     vcaPanel.container->addAndMakeVisible(vcaPanel.thresholdLabel.get());
     vcaPanel.container->addAndMakeVisible(vcaPanel.ratioLabel.get());
     vcaPanel.container->addAndMakeVisible(vcaPanel.attackLabel.get());
-    vcaPanel.container->addAndMakeVisible(vcaPanel.releaseLabel.get());
+    // No release label for DBX 160
     vcaPanel.container->addAndMakeVisible(vcaPanel.outputLabel.get());
     
     // Create attachments
@@ -274,9 +274,7 @@ void EnhancedCompressorEditor::setupVCAPanel()
         vcaPanel.attackAttachment = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(
             params, "vca_attack", *vcaPanel.attackKnob);
     
-    if (params.getRawParameterValue("vca_release"))
-        vcaPanel.releaseAttachment = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(
-            params, "vca_release", *vcaPanel.releaseKnob);
+    // DBX 160 has fixed release rate - no attachment needed
     
     if (params.getRawParameterValue("vca_output"))
         vcaPanel.outputAttachment = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(
@@ -454,7 +452,7 @@ void EnhancedCompressorEditor::updateMode(int newMode)
             vcaPanel.thresholdKnob->setLookAndFeel(currentLookAndFeel);
             vcaPanel.ratioKnob->setLookAndFeel(currentLookAndFeel);
             vcaPanel.attackKnob->setLookAndFeel(currentLookAndFeel);
-            vcaPanel.releaseKnob->setLookAndFeel(currentLookAndFeel);
+            // No release knob for DBX 160
             vcaPanel.outputKnob->setLookAndFeel(currentLookAndFeel);
             vcaPanel.overEasyButton->setLookAndFeel(currentLookAndFeel);
         }
@@ -468,32 +466,8 @@ void EnhancedCompressorEditor::updateMode(int newMode)
         }
     }
     
-    // Auto-resize if current size is too small for the mode
-    // VCA mode needs more space due to 5 knobs
-    int minWidth = 900;
-    int minHeight = 600;
-    
-    if (currentMode == 2)  // VCA mode needs more space
-    {
-        minWidth = 950;
-        minHeight = 650;
-    }
-    
-    // If window is too small, resize it
-    if (getWidth() < minWidth || getHeight() < minHeight)
-    {
-        int newWidth = juce::jmax(getWidth(), minWidth);
-        int newHeight = juce::jmax(getHeight(), minHeight);
-        
-        // Maintain aspect ratio
-        float aspectRatio = 900.0f / 600.0f;
-        if ((float)newWidth / (float)newHeight > aspectRatio)
-            newHeight = (int)(newWidth / aspectRatio);
-        else
-            newWidth = (int)(newHeight * aspectRatio);
-        
-        setSize(newWidth, newHeight);
-    }
+    // Don't resize window when changing modes - keep consistent 700x500 size
+    // All modes should fit within this size
     
     resized();
     repaint();
@@ -551,15 +525,14 @@ void EnhancedCompressorEditor::paint(juce::Graphics& g)
     }
     
     // Draw title in a smaller area that doesn't overlap with controls
-    auto titleBounds = bounds.removeFromTop(35).withTrimmedLeft(200).withTrimmedRight(200);
+    auto titleBounds = bounds.removeFromTop(35 * scaleFactor).withTrimmedLeft(200 * scaleFactor).withTrimmedRight(200 * scaleFactor);
     g.setColour(textColor);
-    float scaleFactor = getWidth() / 900.0f;  // Scale based on original 900px width
+    // Use the member scaleFactor already calculated in resized()
     g.setFont(juce::Font(juce::FontOptions(20.0f * scaleFactor).withStyle("Bold")));
     g.drawText(title, titleBounds, juce::Justification::centred);
     
     // Draw meter labels with full opacity for better readability
-    float labelScaleFactor = getWidth() / 900.0f;
-    g.setFont(juce::Font(juce::FontOptions(11.0f * labelScaleFactor).withStyle("Bold")));
+    g.setFont(juce::Font(juce::FontOptions(11.0f * scaleFactor).withStyle("Bold")));
     g.setColour(textColor);
     
     // Center INPUT text over the input meter
@@ -569,63 +542,71 @@ void EnhancedCompressorEditor::paint(juce::Graphics& g)
         g.drawText("INPUT", inputBounds.getX() - 10, inputBounds.getY() - 20, 
                    inputBounds.getWidth() + 20, 20, juce::Justification::centred);
         
-        // Draw input level value below the meter
-        // getInputLevel() already returns dB values
-        float inputDB = processor.getInputLevel();
-        juce::String inputText = juce::String(inputDB, 1) + " dB";
-        g.setFont(juce::Font(juce::FontOptions(10.0f * labelScaleFactor)));
+        // Draw smoothed input level value below the meter for better readability
+        juce::String inputText = juce::String(smoothedInputLevel, 1) + " dB";
+        g.setFont(juce::Font(juce::FontOptions(10.0f * scaleFactor)));
         g.drawText(inputText, inputBounds.getX() - 10, inputBounds.getBottom(), 
-                   inputBounds.getWidth() + 20, 25, juce::Justification::centred);
+                   inputBounds.getWidth() + 20, 25 * scaleFactor, juce::Justification::centred);
     }
     
     // Center OUTPUT text over the output meter
     if (outputMeter)
     {
         auto outputBounds = outputMeter->getBounds();
-        g.setFont(juce::Font(juce::FontOptions(11.0f * labelScaleFactor).withStyle("Bold")));
+        g.setFont(juce::Font(juce::FontOptions(11.0f * scaleFactor).withStyle("Bold")));
         g.drawText("OUTPUT", outputBounds.getX() - 10, outputBounds.getY() - 20, 
                    outputBounds.getWidth() + 20, 20, juce::Justification::centred);
         
-        // Draw output level value below the meter
-        // getOutputLevel() already returns dB values
-        float outputDB = processor.getOutputLevel();
-        juce::String outputText = juce::String(outputDB, 1) + " dB";
-        g.setFont(juce::Font(juce::FontOptions(10.0f * labelScaleFactor)));
+        // Draw smoothed output level value below the meter for better readability
+        juce::String outputText = juce::String(smoothedOutputLevel, 1) + " dB";
+        g.setFont(juce::Font(juce::FontOptions(10.0f * scaleFactor)));
         g.drawText(outputText, outputBounds.getX() - 10, outputBounds.getBottom(), 
                    outputBounds.getWidth() + 20, 25, juce::Justification::centred);
     }
     
-    // Draw VU meter label
-    auto vuArea = getLocalBounds().removeFromTop(300);
-    g.drawText("GAIN REDUCTION", vuArea.removeFromBottom(30), juce::Justification::centred);
+    // Draw VU meter label below the VU meter
+    // Calculate the same position as in resized() method
+    auto vuBounds = getLocalBounds();
+    auto vuTopRow = vuBounds.removeFromTop(70 * scaleFactor).withTrimmedTop(35 * scaleFactor);
+    auto vuMainArea = vuBounds;
+    auto vuLeftMeter = vuMainArea.removeFromLeft(60 * scaleFactor);
+    auto vuRightMeter = vuMainArea.removeFromRight(60 * scaleFactor);
+    vuMainArea.reduce(20 * scaleFactor, 0);
+    auto vuLabelArea = vuMainArea.removeFromTop(190 * scaleFactor + 35 * scaleFactor);
+    g.drawText("GAIN REDUCTION", vuLabelArea.removeFromBottom(30 * scaleFactor), juce::Justification::centred);
 }
 
 void EnhancedCompressorEditor::resized()
 {
     auto bounds = getLocalBounds();
     
+    // Calculate scale factor based on window size
+    float widthScale = getWidth() / 700.0f;  // Base size is now 700x500
+    float heightScale = getHeight() / 500.0f;
+    scaleFactor = juce::jmin(widthScale, heightScale);  // Use the smaller scale to maintain proportions
+    
     // Position resizer in corner
     if (resizer)
         resizer->setBounds(getWidth() - 16, getHeight() - 16, 16, 16);
     
-    // Top row - mode selector and global controls
+    // Top row - mode selector and global controls (scale all values)
     // Leave space for title
-    auto topRow = bounds.removeFromTop(70).withTrimmedTop(35);  // Start below title
-    topRow.reduce(20, 5);
+    auto topRow = bounds.removeFromTop(70 * scaleFactor).withTrimmedTop(35 * scaleFactor);
+    topRow.reduce(20 * scaleFactor, 5 * scaleFactor);
     
     if (modeSelector)
-        modeSelector->setBounds(topRow.removeFromLeft(150));
+        modeSelector->setBounds(topRow.removeFromLeft(150 * scaleFactor));
     else
-        topRow.removeFromLeft(150);
+        topRow.removeFromLeft(150 * scaleFactor);
     
-    topRow.removeFromLeft(20);
+    topRow.removeFromLeft(20 * scaleFactor);
     
     if (bypassButton)
-        bypassButton->setBounds(topRow.removeFromLeft(120));  // Increased width for text
+        bypassButton->setBounds(topRow.removeFromLeft(120 * scaleFactor));
     else
-        topRow.removeFromLeft(120);
+        topRow.removeFromLeft(120 * scaleFactor);
         
-    topRow.removeFromLeft(10);
+    topRow.removeFromLeft(10 * scaleFactor);
     
     // Oversample button removed - space now available
     
@@ -637,7 +618,7 @@ void EnhancedCompressorEditor::resized()
         if (currentMode == 0)  // Opto mode
         {
             optoPanel.limitSwitch->setVisible(true);
-            optoPanel.limitSwitch->setBounds(topRow.removeFromLeft(150));
+            optoPanel.limitSwitch->setBounds(topRow.removeFromLeft(150 * scaleFactor));
         }
         else
         {
@@ -651,7 +632,7 @@ void EnhancedCompressorEditor::resized()
         if (currentMode == 2)  // VCA mode
         {
             vcaPanel.overEasyButton->setVisible(true);
-            vcaPanel.overEasyButton->setBounds(topRow.removeFromLeft(120));
+            vcaPanel.overEasyButton->setBounds(topRow.removeFromLeft(120 * scaleFactor));
         }
         else
         {
@@ -660,30 +641,33 @@ void EnhancedCompressorEditor::resized()
     }
     
     // Main area
-    auto mainArea = bounds.reduced(20, 10);
+    auto mainArea = bounds.reduced(20 * scaleFactor, 10 * scaleFactor);
     
     // Left meter - leave space for labels above and below
-    auto leftMeter = mainArea.removeFromLeft(60);
-    leftMeter.removeFromTop(25);  // Space for "INPUT" label
+    auto leftMeter = mainArea.removeFromLeft(60 * scaleFactor);
+    leftMeter.removeFromTop(25 * scaleFactor);  // Space for "INPUT" label
     if (inputMeter)
-        inputMeter->setBounds(leftMeter.removeFromTop(leftMeter.getHeight() - 30));
+        inputMeter->setBounds(leftMeter.removeFromTop(leftMeter.getHeight() - 30 * scaleFactor));
     
     // Right meter - leave space for labels above and below
-    auto rightMeter = mainArea.removeFromRight(60);
-    rightMeter.removeFromTop(25);  // Space for "OUTPUT" label
+    auto rightMeter = mainArea.removeFromRight(60 * scaleFactor);
+    rightMeter.removeFromTop(25 * scaleFactor);  // Space for "OUTPUT" label
     if (outputMeter)
-        outputMeter->setBounds(rightMeter.removeFromTop(rightMeter.getHeight() - 30));
+        outputMeter->setBounds(rightMeter.removeFromTop(rightMeter.getHeight() - 30 * scaleFactor));
     
     // Center area
-    mainArea.reduce(20, 0);
+    mainArea.reduce(20 * scaleFactor, 0);
     
-    // VU Meter at top center - make it larger to use available space
-    auto vuArea = mainArea.removeFromTop(280);
+    // VU Meter at top center - good readable size
+    auto vuArea = mainArea.removeFromTop(190 * scaleFactor);  // Increased from 160 to 190
     if (vuMeter)
-        vuMeter->setBounds(vuArea.reduced(30, 10));  // Use more horizontal space
+        vuMeter->setBounds(vuArea.reduced(55 * scaleFactor, 5 * scaleFactor));  // Less horizontal reduction for larger meter
+    
+    // Add space for "GAIN REDUCTION" text below VU meter
+    mainArea.removeFromTop(35 * scaleFactor);  // Space for the label
     
     // Control panel area
-    auto controlArea = mainArea.reduced(10, 20);
+    auto controlArea = mainArea.reduced(10 * scaleFactor, 20 * scaleFactor);
     
     // Layout Opto panel
     if (optoPanel.container && optoPanel.container->isVisible())
@@ -692,7 +676,7 @@ void EnhancedCompressorEditor::resized()
         
         // Layout within the container's local bounds
         auto optoBounds = optoPanel.container->getLocalBounds();
-        auto knobRow = optoBounds.removeFromTop(120);
+        auto knobRow = optoBounds.removeFromTop(120 * scaleFactor);
         
         // Center the two knobs horizontally
         auto totalKnobWidth = knobRow.getWidth() * 0.7f;  // Use 70% of width for knobs
@@ -701,15 +685,15 @@ void EnhancedCompressorEditor::resized()
         
         auto peakArea = knobRow.removeFromLeft(knobRow.getWidth() / 2);
         if (optoPanel.peakReductionLabel)
-            optoPanel.peakReductionLabel->setBounds(peakArea.removeFromTop(25));
+            optoPanel.peakReductionLabel->setBounds(peakArea.removeFromTop(25 * scaleFactor));
         if (optoPanel.peakReductionKnob)
-            optoPanel.peakReductionKnob->setBounds(peakArea.reduced(15, 0));
+            optoPanel.peakReductionKnob->setBounds(peakArea.reduced(15 * scaleFactor, 0));
         
         auto gainArea = knobRow;
         if (optoPanel.gainLabel)
-            optoPanel.gainLabel->setBounds(gainArea.removeFromTop(25));
+            optoPanel.gainLabel->setBounds(gainArea.removeFromTop(25 * scaleFactor));
         if (optoPanel.gainKnob)
-            optoPanel.gainKnob->setBounds(gainArea.reduced(15, 0));
+            optoPanel.gainKnob->setBounds(gainArea.reduced(15 * scaleFactor, 0));
         
         // Compress/Limit switch is now in the top row, not in the panel
     }
@@ -721,15 +705,15 @@ void EnhancedCompressorEditor::resized()
         
         // Layout within the container's local bounds
         auto fetBounds = fetPanel.container->getLocalBounds();
-        auto topKnobs = fetBounds.removeFromTop(120);
+        auto topKnobs = fetBounds.removeFromTop(120 * scaleFactor);
         
         auto knobWidth = topKnobs.getWidth() / 4;
         
         auto inputArea = topKnobs.removeFromLeft(knobWidth);
         if (fetPanel.inputLabel)
-            fetPanel.inputLabel->setBounds(inputArea.removeFromTop(25));
+            fetPanel.inputLabel->setBounds(inputArea.removeFromTop(25 * scaleFactor));
         if (fetPanel.inputKnob)
-            fetPanel.inputKnob->setBounds(inputArea.reduced(15, 0));
+            fetPanel.inputKnob->setBounds(inputArea.reduced(15 * scaleFactor, 0));
         
         auto outputArea = topKnobs.removeFromLeft(knobWidth);
         if (fetPanel.outputLabel)
@@ -758,7 +742,7 @@ void EnhancedCompressorEditor::resized()
     {
         vcaPanel.container->setBounds(controlArea);
         
-        // Layout within the container's local bounds - all 5 knobs in ONE row
+        // Layout within the container's local bounds - 4 knobs in ONE row (no release for DBX 160)
         auto vcaBounds = vcaPanel.container->getLocalBounds();
         
         // Define consistent knob dimensions for ALL knobs in single row
@@ -770,10 +754,10 @@ void EnhancedCompressorEditor::resized()
         auto knobRow = vcaBounds.withHeight(knobRowHeight);
         knobRow.setY((vcaBounds.getHeight() - knobRowHeight) / 2);
         
-        // Calculate knob width based on 5 knobs in one row
-        auto knobWidth = knobRow.getWidth() / 5;
+        // Calculate knob width based on 4 knobs in one row (no release)
+        auto knobWidth = knobRow.getWidth() / 4;
         
-        // Layout all 5 knobs in order: Threshold, Ratio, Output, Attack, Release
+        // Layout all 4 knobs in order: Threshold, Ratio, Attack, Output
         
         // Threshold knob
         auto thresholdBounds = knobRow.removeFromLeft(knobWidth);
@@ -785,20 +769,15 @@ void EnhancedCompressorEditor::resized()
         vcaPanel.ratioLabel->setBounds(ratioBounds.removeFromTop(labelHeight));
         vcaPanel.ratioKnob->setBounds(ratioBounds.reduced(knobReduction, 0));
         
-        // Output knob (in the middle)
-        auto outputBounds = knobRow.removeFromLeft(knobWidth);
-        vcaPanel.outputLabel->setBounds(outputBounds.removeFromTop(labelHeight));
-        vcaPanel.outputKnob->setBounds(outputBounds.reduced(knobReduction, 0));
-        
         // Attack knob
         auto attackBounds = knobRow.removeFromLeft(knobWidth);
         vcaPanel.attackLabel->setBounds(attackBounds.removeFromTop(labelHeight));
         vcaPanel.attackKnob->setBounds(attackBounds.reduced(knobReduction, 0));
         
-        // Release knob
-        auto releaseBounds = knobRow;  // Use remaining space
-        vcaPanel.releaseLabel->setBounds(releaseBounds.removeFromTop(labelHeight));
-        vcaPanel.releaseKnob->setBounds(releaseBounds.reduced(knobReduction, 0));
+        // Output knob
+        auto outputBounds = knobRow;  // Use remaining space
+        vcaPanel.outputLabel->setBounds(outputBounds.removeFromTop(labelHeight));
+        vcaPanel.outputKnob->setBounds(outputBounds.reduced(knobReduction, 0));
         
         // Over Easy button is in the top row, not in the panel
     }
@@ -810,32 +789,34 @@ void EnhancedCompressorEditor::resized()
         
         // Layout within the container's local bounds
         auto busBounds = busPanel.container->getLocalBounds();
-        auto busTopRow = busBounds.removeFromTop(120);
-        auto bottomRow = busBounds.removeFromTop(100);
+        
+        // Compact layout to fit everything in 700x500
+        auto busTopRow = busBounds.removeFromTop(100);  // Reduced from 120
+        auto bottomRow = busBounds.removeFromTop(80);   // Reduced from 100
         
         auto controlWidth = busTopRow.getWidth() / 3;
         
         auto thresholdArea = busTopRow.removeFromLeft(controlWidth);
-        busPanel.thresholdLabel->setBounds(thresholdArea.removeFromTop(25));
+        busPanel.thresholdLabel->setBounds(thresholdArea.removeFromTop(20));  // Smaller labels
         busPanel.thresholdKnob->setBounds(thresholdArea.reduced(15, 0));
         
         auto ratioArea = busTopRow.removeFromLeft(controlWidth);
-        busPanel.ratioLabel->setBounds(ratioArea.removeFromTop(25));
+        busPanel.ratioLabel->setBounds(ratioArea.removeFromTop(20));
         busPanel.ratioKnob->setBounds(ratioArea.reduced(15, 0));
         
         auto makeupArea = busTopRow;
-        busPanel.makeupLabel->setBounds(makeupArea.removeFromTop(25));
+        busPanel.makeupLabel->setBounds(makeupArea.removeFromTop(20));
         busPanel.makeupKnob->setBounds(makeupArea.reduced(15, 0));
         
         controlWidth = bottomRow.getWidth() / 2;
         
         auto attackArea = bottomRow.removeFromLeft(controlWidth);
-        busPanel.attackLabel->setBounds(attackArea.removeFromTop(25));
-        busPanel.attackSelector->setBounds(attackArea.reduced(40, 0).removeFromTop(30));
+        busPanel.attackLabel->setBounds(attackArea.removeFromTop(20));  // Smaller labels
+        busPanel.attackSelector->setBounds(attackArea.reduced(40, 0).removeFromTop(25));  // Slightly smaller
         
         auto releaseArea = bottomRow;
-        busPanel.releaseLabel->setBounds(releaseArea.removeFromTop(25));
-        busPanel.releaseSelector->setBounds(releaseArea.reduced(40, 0).removeFromTop(30));
+        busPanel.releaseLabel->setBounds(releaseArea.removeFromTop(20));
+        busPanel.releaseSelector->setBounds(releaseArea.reduced(40, 0).removeFromTop(25));
         
     }
 }
@@ -852,6 +833,20 @@ void EnhancedCompressorEditor::updateMeters()
         // LEDMeter expects dB values, not linear
         float inputDb = processor.getInputLevel();
         inputMeter->setLevel(inputDb);
+        
+        // Apply smoothing to the readout value for better readability
+        // Use peak hold with slow decay for easier reading
+        if (inputDb > smoothedInputLevel)
+        {
+            // Fast attack for peak capture
+            smoothedInputLevel = inputDb;
+        }
+        else
+        {
+            // Slow release for easy reading (exponential smoothing)
+            smoothedInputLevel = smoothedInputLevel * levelSmoothingFactor + 
+                               inputDb * (1.0f - levelSmoothingFactor);
+        }
     }
     
     if (vuMeter)
@@ -862,6 +857,20 @@ void EnhancedCompressorEditor::updateMeters()
         // LEDMeter expects dB values, not linear
         float outputDb = processor.getOutputLevel();
         outputMeter->setLevel(outputDb);
+        
+        // Apply smoothing to the readout value for better readability
+        // Use peak hold with slow decay for easier reading
+        if (outputDb > smoothedOutputLevel)
+        {
+            // Fast attack for peak capture
+            smoothedOutputLevel = outputDb;
+        }
+        else
+        {
+            // Slow release for easy reading (exponential smoothing)
+            smoothedOutputLevel = smoothedOutputLevel * levelSmoothingFactor + 
+                                outputDb * (1.0f - levelSmoothingFactor);
+        }
     }
     
     // Repaint the area where meter values are displayed

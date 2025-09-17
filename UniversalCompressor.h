@@ -82,11 +82,25 @@ private:
     
     // Stereo linking
     float linkedGainReduction[2] = {0.0f, 0.0f};
-    float stereoLinkAmount = 1.0f;
+    // stereoLinkAmount now controlled by parameter
     
     // Processing state
     double currentSampleRate{0.0};  // Set by prepareToPlay from DAW
     int currentBlockSize{0};  // Set by prepareToPlay from DAW
+    
+    // Lookup tables for performance optimization
+    class LookupTables
+    {
+    public:
+        static constexpr int TABLE_SIZE = 4096;
+        std::array<float, TABLE_SIZE> expTable;  // Exponential lookup
+        std::array<float, TABLE_SIZE> logTable;  // Logarithm lookup
+        
+        void initialize();
+        inline float fastExp(float x) const;
+        inline float fastLog(float x) const;
+    };
+    std::unique_ptr<LookupTables> lookupTables;
     
     // Parameter creation
     juce::AudioProcessorValueTreeState::ParameterLayout createParameterLayout();

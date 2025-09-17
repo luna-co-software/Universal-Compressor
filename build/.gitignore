@@ -1,9 +1,0 @@
-
-# Build artifacts
-build/
-*.a
-*.so
-*.o
-UniversalCompressor_artefacts/
-CMakeFiles/
-CMakeCache.txt

@@ -94,20 +94,20 @@ private:
         std::unique_ptr<juce::Slider> thresholdKnob;
         std::unique_ptr<juce::Slider> ratioKnob;
         std::unique_ptr<juce::Slider> attackKnob;
-        std::unique_ptr<juce::Slider> releaseKnob;
+        // DBX 160 has fixed release rate - no release knob
         std::unique_ptr<juce::Slider> outputKnob;
         std::unique_ptr<juce::ToggleButton> overEasyButton;
         std::unique_ptr<juce::Label> thresholdLabel;
         std::unique_ptr<juce::Label> ratioLabel;
         std::unique_ptr<juce::Label> attackLabel;
-        std::unique_ptr<juce::Label> releaseLabel;
+        // No release label for DBX 160
         std::unique_ptr<juce::Label> outputLabel;
         
         // Attachments
         std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> thresholdAttachment;
         std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> ratioAttachment;
         std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> attackAttachment;
-        std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> releaseAttachment;
+        // No release attachment for DBX 160
         std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> outputAttachment;
         std::unique_ptr<juce::AudioProcessorValueTreeState::ButtonAttachment> overEasyAttachment;
     };
@@ -150,6 +150,11 @@ private:
     juce::ComponentBoundsConstrainer constrainer;
     std::unique_ptr<juce::ResizableCornerComponent> resizer;
     float scaleFactor = 1.0f;
+    
+    // Smoothed level readouts for better readability
+    float smoothedInputLevel = -60.0f;
+    float smoothedOutputLevel = -60.0f;
+    const float levelSmoothingFactor = 0.97f;  // Much higher smoothing (0.97 = ~500ms at 30Hz)
     
     // Helper methods
     void setupOptoPanel();
