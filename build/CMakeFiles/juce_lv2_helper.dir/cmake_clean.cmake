@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/juce_lv2_helper.dir/link.d"
-  "CMakeFiles/juce_lv2_helper.dir/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o"
-  "CMakeFiles/juce_lv2_helper.dir/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o.d"
+  "CMakeFiles/juce_lv2_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o"
+  "CMakeFiles/juce_lv2_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o.d"
   "juce_lv2_helper"
   "juce_lv2_helper.pdb"
 )

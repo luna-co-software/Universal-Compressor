@@ -3,7 +3,7 @@
 cmake_policy(SET CMP0009 NEW)
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/extras/Build" "/home/marc/projects/Universal-Compressor/JUCE/extras/Build/juce_build_tools/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/extras/Build" "/home/marc/projects/JUCE/extras/Build/juce_build_tools/*")
 set(OLD_GLOB
   "juce_build_tools/juce_build_tools.cpp"
   "juce_build_tools/juce_build_tools.h"
@@ -33,7 +33,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_analytics/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_analytics/*")
 set(OLD_GLOB
   "juce_analytics/analytics/juce_Analytics.cpp"
   "juce_analytics/analytics/juce_Analytics.h"
@@ -51,7 +51,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_animation/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_animation/*")
 set(OLD_GLOB
   "juce_animation/animation/juce_Animator.cpp"
   "juce_animation/animation/juce_Animator.h"
@@ -77,7 +77,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_basics/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_audio_basics/*")
 set(OLD_GLOB
   "juce_audio_basics/audio_play_head/juce_AudioPlayHead.cpp"
   "juce_audio_basics/audio_play_head/juce_AudioPlayHead.h"
@@ -193,7 +193,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_devices/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_audio_devices/*")
 set(OLD_GLOB
   "juce_audio_devices/audio_io/juce_AudioDeviceManager.cpp"
   "juce_audio_devices/audio_io/juce_AudioDeviceManager.h"
@@ -386,7 +386,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_formats/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_audio_formats/*")
 set(OLD_GLOB
   "juce_audio_formats/codecs/flac/Flac Licence.txt"
   "juce_audio_formats/codecs/flac/JUCE_CHANGES.txt"
@@ -569,7 +569,7 @@ endif()
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:497 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_plugin_client/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_audio_plugin_client/*")
 set(OLD_GLOB
   "juce_audio_plugin_client/AAX/SDK/Interfaces/AAX.h"
   "juce_audio_plugin_client/AAX/SDK/Interfaces/AAX_Assert.h"
@@ -827,7 +827,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_processors/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_audio_processors/*")
 set(OLD_GLOB
   "juce_audio_processors/format/juce_AudioPluginFormat.cpp"
   "juce_audio_processors/format/juce_AudioPluginFormat.h"
@@ -1255,7 +1255,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_utils/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_audio_utils/*")
 set(OLD_GLOB
   "juce_audio_utils/audio_cd/juce_AudioCDBurner.h"
   "juce_audio_utils/audio_cd/juce_AudioCDReader.cpp"
@@ -1302,7 +1302,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_box2d/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_box2d/*")
 set(OLD_GLOB
   "juce_box2d/box2d/Box2D.h"
   "juce_box2d/box2d/Collision/Shapes/b2ChainShape.cpp"
@@ -1407,7 +1407,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_core/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_core/*")
 set(OLD_GLOB
   "juce_core/containers/juce_AbstractFifo.cpp"
   "juce_core/containers/juce_AbstractFifo.h"
@@ -1718,7 +1718,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_cryptography/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_cryptography/*")
 set(OLD_GLOB
   "juce_cryptography/encryption/juce_BlowFish.cpp"
   "juce_cryptography/encryption/juce_BlowFish.h"
@@ -1742,7 +1742,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_data_structures/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_data_structures/*")
 set(OLD_GLOB
   "juce_data_structures/app_properties/juce_ApplicationProperties.cpp"
   "juce_data_structures/app_properties/juce_ApplicationProperties.h"
@@ -1772,7 +1772,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_dsp/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_dsp/*")
 set(OLD_GLOB
   "juce_dsp/containers/juce_AudioBlock.h"
   "juce_dsp/containers/juce_AudioBlock_test.cpp"
@@ -1863,7 +1863,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_events/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_events/*")
 set(OLD_GLOB
   "juce_events/broadcasters/juce_ActionBroadcaster.cpp"
   "juce_events/broadcasters/juce_ActionBroadcaster.h"
@@ -1927,7 +1927,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_graphics/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_graphics/*")
 set(OLD_GLOB
   "juce_graphics/colour/juce_Colour.cpp"
   "juce_graphics/colour/juce_Colour.h"
@@ -2552,7 +2552,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_gui_basics/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_gui_basics/*")
 set(OLD_GLOB
   "juce_gui_basics/accessibility/enums/juce_AccessibilityActions.h"
   "juce_gui_basics/accessibility/enums/juce_AccessibilityEvent.h"
@@ -2947,7 +2947,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_gui_extra/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_gui_extra/*")
 set(OLD_GLOB
   "juce_gui_extra/code_editor/juce_CPlusPlusCodeTokeniser.cpp"
   "juce_gui_extra/code_editor/juce_CPlusPlusCodeTokeniser.h"
@@ -3030,7 +3030,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_javascript/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_javascript/*")
 set(OLD_GLOB
   "juce_javascript/choc/LICENSE.md"
   "juce_javascript/choc/containers/choc_Value.h"
@@ -3061,7 +3061,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_midi_ci/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_midi_ci/*")
 set(OLD_GLOB
   "juce_midi_ci/ci/juce_CIChannelAddress.h"
   "juce_midi_ci/ci/juce_CIDevice.cpp"
@@ -3115,7 +3115,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_opengl/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_opengl/*")
 set(OLD_GLOB
   "juce_opengl/geometry/juce_Draggable3DOrientation.h"
   "juce_opengl/geometry/juce_Matrix3D.h"
@@ -3163,7 +3163,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_osc/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_osc/*")
 set(OLD_GLOB
   "juce_osc/juce_osc.cpp"
   "juce_osc/juce_osc.h"
@@ -3190,7 +3190,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_product_unlocking/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_product_unlocking/*")
 set(OLD_GLOB
   "juce_product_unlocking/in_app_purchases/juce_InAppPurchases.cpp"
   "juce_product_unlocking/in_app_purchases/juce_InAppPurchases.h"
@@ -3214,7 +3214,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:220 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/Universal-Compressor/JUCE/modules" "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_video/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false RELATIVE "/home/marc/projects/JUCE/modules" "/home/marc/projects/JUCE/modules/juce_video/*")
 set(OLD_GLOB
   "juce_video/capture/juce_CameraDevice.cpp"
   "juce_video/capture/juce_CameraDevice.h"

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp" "CMakeFiles/juce_lv2_helper.dir/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o" "gcc" "CMakeFiles/juce_lv2_helper.dir/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o.d"
+  "/home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp" "CMakeFiles/juce_lv2_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o" "gcc" "CMakeFiles/juce_lv2_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o.d"
   "" "juce_lv2_helper" "gcc" "CMakeFiles/juce_lv2_helper.dir/link.d"
   )
 

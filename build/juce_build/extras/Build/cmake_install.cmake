@@ -1,4 +1,4 @@
-# Install script for directory: /home/marc/projects/Universal-Compressor/JUCE/extras/Build
+# Install script for directory: /home/marc/projects/JUCE/extras/Build
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -72,28 +72,28 @@ include CMakeFiles/UniversalCompressor_vst3_helper.dir/flags.make
 CMakeFiles/UniversalCompressor_vst3_helper.dir/codegen:
 .PHONY : CMakeFiles/UniversalCompressor_vst3_helper.dir/codegen
 
-CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o: CMakeFiles/UniversalCompressor_vst3_helper.dir/flags.make
-CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o: /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp
-CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o: CMakeFiles/UniversalCompressor_vst3_helper.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o -MF CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o.d -o CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o -c /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp
+CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o: CMakeFiles/UniversalCompressor_vst3_helper.dir/flags.make
+CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o: /home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp
+CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o: CMakeFiles/UniversalCompressor_vst3_helper.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o -MF CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o.d -o CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o -c /home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp
 
-CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp > CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.i
+CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp > CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.i
 
-CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp -o CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.s
+CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp -o CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.s
 
 # Object files for target UniversalCompressor_vst3_helper
 UniversalCompressor_vst3_helper_OBJECTS = \
-"CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o"
+"CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o"
 
 # External object files for target UniversalCompressor_vst3_helper
 UniversalCompressor_vst3_helper_EXTERNAL_OBJECTS =
 
-UniversalCompressor_vst3_helper: CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o
+UniversalCompressor_vst3_helper: CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o
 UniversalCompressor_vst3_helper: CMakeFiles/UniversalCompressor_vst3_helper.dir/build.make
 UniversalCompressor_vst3_helper: CMakeFiles/UniversalCompressor_vst3_helper.dir/compiler_depend.ts
 UniversalCompressor_vst3_helper: CMakeFiles/UniversalCompressor_vst3_helper.dir/link.txt

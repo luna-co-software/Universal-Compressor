@@ -118,266 +118,266 @@ CMakeFiles/UniversalCompressor.dir/EnhancedCompressorEditor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/EnhancedCompressorEditor.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/Universal-Compressor/EnhancedCompressorEditor.cpp -o CMakeFiles/UniversalCompressor.dir/EnhancedCompressorEditor.cpp.s
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o: /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o -MF CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o -c /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o: /home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o -MF CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o -c /home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp > CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.i
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp > CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.i
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.s
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.s
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o: /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o -MF CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o -c /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o: /home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o -MF CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o -c /home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp > CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp > CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o: /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o -MF CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o -c /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o: /home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o -MF CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o -c /home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp > CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp > CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o: /home/marc/projects/Universal-Compressor/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o -MF CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o -c /home/marc/projects/Universal-Compressor/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o: /home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o -MF CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o -c /home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/Universal-Compressor/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp > CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.i
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp > CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.i
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/Universal-Compressor/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.s
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.s
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o: /home/marc/projects/Universal-Compressor/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o -MF CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o -c /home/marc/projects/Universal-Compressor/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o: /home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o -MF CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o -c /home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/Universal-Compressor/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp > CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.i
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp > CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.i
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/Universal-Compressor/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.s
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.s
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics.cpp.o: /home/marc/projects/Universal-Compressor/JUCE/modules/juce_graphics/juce_graphics.cpp
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics.cpp.o -MF CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics.cpp.o -c /home/marc/projects/Universal-Compressor/JUCE/modules/juce_graphics/juce_graphics.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.o: /home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.o -MF CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.o -c /home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/Universal-Compressor/JUCE/modules/juce_graphics/juce_graphics.cpp > CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics.cpp.i
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp > CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.i
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/Universal-Compressor/JUCE/modules/juce_graphics/juce_graphics.cpp -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics.cpp.s
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.s
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o: /home/marc/projects/Universal-Compressor/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o -MF CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o -c /home/marc/projects/Universal-Compressor/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o: /home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o -MF CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o -c /home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/Universal-Compressor/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp > CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp > CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/Universal-Compressor/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o: CMakeFiles/UniversalCompressor.dir/flags.make
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o: /home/marc/projects/Universal-Compressor/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o -MF CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o.d -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o -c /home/marc/projects/Universal-Compressor/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o: CMakeFiles/UniversalCompressor.dir/flags.make
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o: /home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o -MF CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o.d -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o -c /home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marc/projects/Universal-Compressor/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c > CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c > CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marc/projects/Universal-Compressor/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_events/juce_events.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_events/juce_events.cpp.o: /home/marc/projects/Universal-Compressor/JUCE/modules/juce_events/juce_events.cpp
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_events/juce_events.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_events/juce_events.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_events/juce_events.cpp.o -MF CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_events/juce_events.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_events/juce_events.cpp.o -c /home/marc/projects/Universal-Compressor/JUCE/modules/juce_events/juce_events.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.o: /home/marc/projects/JUCE/modules/juce_events/juce_events.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.o -MF CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.o -c /home/marc/projects/JUCE/modules/juce_events/juce_events.cpp
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_events/juce_events.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_events/juce_events.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/Universal-Compressor/JUCE/modules/juce_events/juce_events.cpp > CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_events/juce_events.cpp.i
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/JUCE/modules/juce_events/juce_events.cpp > CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.i
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_events/juce_events.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_events/juce_events.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/Universal-Compressor/JUCE/modules/juce_events/juce_events.cpp -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_events/juce_events.cpp.s
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/JUCE/modules/juce_events/juce_events.cpp -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.s
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core.cpp.o: /home/marc/projects/Universal-Compressor/JUCE/modules/juce_core/juce_core.cpp
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core.cpp.o -MF CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core.cpp.o -c /home/marc/projects/Universal-Compressor/JUCE/modules/juce_core/juce_core.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.o: /home/marc/projects/JUCE/modules/juce_core/juce_core.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.o -MF CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.o -c /home/marc/projects/JUCE/modules/juce_core/juce_core.cpp
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/Universal-Compressor/JUCE/modules/juce_core/juce_core.cpp > CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core.cpp.i
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/JUCE/modules/juce_core/juce_core.cpp > CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.i
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/Universal-Compressor/JUCE/modules/juce_core/juce_core.cpp -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core.cpp.s
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/JUCE/modules/juce_core/juce_core.cpp -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.s
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o: /home/marc/projects/Universal-Compressor/JUCE/modules/juce_core/juce_core_CompilationTime.cpp
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o -MF CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o -c /home/marc/projects/Universal-Compressor/JUCE/modules/juce_core/juce_core_CompilationTime.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o: /home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o -MF CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o -c /home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/Universal-Compressor/JUCE/modules/juce_core/juce_core_CompilationTime.cpp > CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp > CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/Universal-Compressor/JUCE/modules/juce_core/juce_core_CompilationTime.cpp -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o: /home/marc/projects/Universal-Compressor/JUCE/modules/juce_data_structures/juce_data_structures.cpp
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o -MF CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o -c /home/marc/projects/Universal-Compressor/JUCE/modules/juce_data_structures/juce_data_structures.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o: /home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o -MF CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o -c /home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_data_structures/juce_data_structures.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_data_structures/juce_data_structures.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/Universal-Compressor/JUCE/modules/juce_data_structures/juce_data_structures.cpp > CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_data_structures/juce_data_structures.cpp.i
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp > CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.i
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_data_structures/juce_data_structures.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_data_structures/juce_data_structures.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/Universal-Compressor/JUCE/modules/juce_data_structures/juce_data_structures.cpp -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_data_structures/juce_data_structures.cpp.s
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.s
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o: /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o -MF CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o -c /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o: /home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o -MF CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o -c /home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp > CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.i
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp > CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.i
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.s
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.s
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o: /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o -MF CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o -c /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o: /home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o -MF CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o -c /home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp > CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.i
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp > CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.i
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.s
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.s
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o: /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o -MF CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o -c /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o: /home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o -MF CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o -c /home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp > CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.i
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp > CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.i
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.s
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.s
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o: /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o -MF CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o -c /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o: /home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o -MF CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o -c /home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp > CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.i
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp > CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.i
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.s
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.s
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_dsp/juce_dsp.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_dsp/juce_dsp.cpp.o: /home/marc/projects/Universal-Compressor/JUCE/modules/juce_dsp/juce_dsp.cpp
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_dsp/juce_dsp.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_dsp/juce_dsp.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_dsp/juce_dsp.cpp.o -MF CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_dsp/juce_dsp.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_dsp/juce_dsp.cpp.o -c /home/marc/projects/Universal-Compressor/JUCE/modules/juce_dsp/juce_dsp.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.o: CMakeFiles/UniversalCompressor.dir/flags.make
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.o: /home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.o: CMakeFiles/UniversalCompressor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.o -MF CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.o.d -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.o -c /home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_dsp/juce_dsp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_dsp/juce_dsp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/Universal-Compressor/JUCE/modules/juce_dsp/juce_dsp.cpp > CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_dsp/juce_dsp.cpp.i
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp > CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.i
 
-CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_dsp/juce_dsp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_dsp/juce_dsp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/Universal-Compressor/JUCE/modules/juce_dsp/juce_dsp.cpp -o CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_dsp/juce_dsp.cpp.s
+CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp -o CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.s
 
 # Object files for target UniversalCompressor
 UniversalCompressor_OBJECTS = \
 "CMakeFiles/UniversalCompressor.dir/UniversalCompressor.cpp.o" \
 "CMakeFiles/UniversalCompressor.dir/AnalogLookAndFeel.cpp.o" \
 "CMakeFiles/UniversalCompressor.dir/EnhancedCompressorEditor.cpp.o" \
-"CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o" \
-"CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o" \
-"CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o" \
-"CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o" \
-"CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o" \
-"CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics.cpp.o" \
-"CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o" \
-"CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o" \
-"CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_events/juce_events.cpp.o" \
-"CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core.cpp.o" \
-"CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o" \
-"CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o" \
-"CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o" \
-"CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o" \
-"CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o" \
-"CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o" \
-"CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_dsp/juce_dsp.cpp.o"
+"CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o" \
+"CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o" \
+"CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o" \
+"CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o" \
+"CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o" \
+"CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.o" \
+"CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o" \
+"CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o" \
+"CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.o" \
+"CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.o" \
+"CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o" \
+"CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o" \
+"CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o" \
+"CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o" \
+"CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o" \
+"CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o" \
+"CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.o"
 
 # External object files for target UniversalCompressor
 UniversalCompressor_EXTERNAL_OBJECTS =
@@ -385,23 +385,23 @@ UniversalCompressor_EXTERNAL_OBJECTS =
 UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/UniversalCompressor.cpp.o
 UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/AnalogLookAndFeel.cpp.o
 UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/EnhancedCompressorEditor.cpp.o
-UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o
-UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
-UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
-UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o
-UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o
-UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics.cpp.o
-UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
-UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
-UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_events/juce_events.cpp.o
-UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core.cpp.o
-UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
-UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o
-UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o
-UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o
-UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o
-UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o
-UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_dsp/juce_dsp.cpp.o
+UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o
+UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
+UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
+UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o
+UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o
+UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.o
+UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.o
+UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.o
+UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
+UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o
+UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o
+UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o
+UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o
+UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o
+UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.o
 UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/build.make
 UniversalCompressor_artefacts/libUniversal\ Compressor_SharedCode.a: CMakeFiles/UniversalCompressor.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/marc/projects/Universal-Compressor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX static library \"UniversalCompressor_artefacts/libUniversal Compressor_SharedCode.a\""

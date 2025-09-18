@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marc/projects/Universal-Compressor/JUCE
+CMAKE_SOURCE_DIR = /home/marc/projects/JUCE
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/marc/projects/Universal-Compressor/build/juce_build/tools

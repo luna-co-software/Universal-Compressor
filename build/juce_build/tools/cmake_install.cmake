@@ -1,4 +1,4 @@
-# Install script for directory: /home/marc/projects/Universal-Compressor/JUCE
+# Install script for directory: /home/marc/projects/JUCE
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -56,22 +56,22 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/JUCE-8.0.10" TYPE FILE FILES
     "/home/marc/projects/Universal-Compressor/build/juce_build/tools/JUCEConfigVersion.cmake"
     "/home/marc/projects/Universal-Compressor/build/juce_build/tools/JUCEConfig.cmake"
-    "/home/marc/projects/Universal-Compressor/JUCE/extras/Build/CMake/JUCECheckAtomic.cmake"
-    "/home/marc/projects/Universal-Compressor/JUCE/extras/Build/CMake/JUCEHelperTargets.cmake"
-    "/home/marc/projects/Universal-Compressor/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake"
-    "/home/marc/projects/Universal-Compressor/JUCE/extras/Build/CMake/JUCEUtils.cmake"
-    "/home/marc/projects/Universal-Compressor/JUCE/extras/Build/CMake/JuceLV2Defines.h.in"
-    "/home/marc/projects/Universal-Compressor/JUCE/extras/Build/CMake/LaunchScreen.storyboard"
-    "/home/marc/projects/Universal-Compressor/JUCE/extras/Build/CMake/PIPAudioProcessor.cpp.in"
-    "/home/marc/projects/Universal-Compressor/JUCE/extras/Build/CMake/PIPAudioProcessorWithARA.cpp.in"
-    "/home/marc/projects/Universal-Compressor/JUCE/extras/Build/CMake/PIPComponent.cpp.in"
-    "/home/marc/projects/Universal-Compressor/JUCE/extras/Build/CMake/PIPConsole.cpp.in"
-    "/home/marc/projects/Universal-Compressor/JUCE/extras/Build/CMake/RecentFilesMenuTemplate.nib"
-    "/home/marc/projects/Universal-Compressor/JUCE/extras/Build/CMake/UnityPluginGUIScript.cs.in"
-    "/home/marc/projects/Universal-Compressor/JUCE/extras/Build/CMake/checkBundleSigning.cmake"
-    "/home/marc/projects/Universal-Compressor/JUCE/extras/Build/CMake/copyDir.cmake"
-    "/home/marc/projects/Universal-Compressor/JUCE/extras/Build/CMake/juce_runtime_arch_detection.cpp"
-    "/home/marc/projects/Universal-Compressor/JUCE/extras/Build/CMake/juce_LinuxSubprocessHelper.cpp"
+    "/home/marc/projects/JUCE/extras/Build/CMake/JUCECheckAtomic.cmake"
+    "/home/marc/projects/JUCE/extras/Build/CMake/JUCEHelperTargets.cmake"
+    "/home/marc/projects/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake"
+    "/home/marc/projects/JUCE/extras/Build/CMake/JUCEUtils.cmake"
+    "/home/marc/projects/JUCE/extras/Build/CMake/JuceLV2Defines.h.in"
+    "/home/marc/projects/JUCE/extras/Build/CMake/LaunchScreen.storyboard"
+    "/home/marc/projects/JUCE/extras/Build/CMake/PIPAudioProcessor.cpp.in"
+    "/home/marc/projects/JUCE/extras/Build/CMake/PIPAudioProcessorWithARA.cpp.in"
+    "/home/marc/projects/JUCE/extras/Build/CMake/PIPComponent.cpp.in"
+    "/home/marc/projects/JUCE/extras/Build/CMake/PIPConsole.cpp.in"
+    "/home/marc/projects/JUCE/extras/Build/CMake/RecentFilesMenuTemplate.nib"
+    "/home/marc/projects/JUCE/extras/Build/CMake/UnityPluginGUIScript.cs.in"
+    "/home/marc/projects/JUCE/extras/Build/CMake/checkBundleSigning.cmake"
+    "/home/marc/projects/JUCE/extras/Build/CMake/copyDir.cmake"
+    "/home/marc/projects/JUCE/extras/Build/CMake/juce_runtime_arch_detection.cpp"
+    "/home/marc/projects/JUCE/extras/Build/CMake/juce_LinuxSubprocessHelper.cpp"
     )
 endif()
 

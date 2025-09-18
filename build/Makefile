@@ -288,678 +288,6 @@ EnhancedCompressorEditor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/EnhancedCompressorEditor.cpp.s
 .PHONY : EnhancedCompressorEditor.cpp.s
 
-JUCE/modules/juce_audio_basics/juce_audio_basics.o: JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o
-.PHONY : JUCE/modules/juce_audio_basics/juce_audio_basics.o
-
-# target to build an object file
-JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o
-.PHONY : JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o
-
-JUCE/modules/juce_audio_basics/juce_audio_basics.i: JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.i
-.PHONY : JUCE/modules/juce_audio_basics/juce_audio_basics.i
-
-# target to preprocess a source file
-JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.i
-.PHONY : JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.i
-
-JUCE/modules/juce_audio_basics/juce_audio_basics.s: JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.s
-.PHONY : JUCE/modules/juce_audio_basics/juce_audio_basics.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.s
-.PHONY : JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.s
-
-JUCE/modules/juce_audio_devices/juce_audio_devices.o: JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o
-.PHONY : JUCE/modules/juce_audio_devices/juce_audio_devices.o
-
-# target to build an object file
-JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o
-.PHONY : JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o
-
-JUCE/modules/juce_audio_devices/juce_audio_devices.i: JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.i
-.PHONY : JUCE/modules/juce_audio_devices/juce_audio_devices.i
-
-# target to preprocess a source file
-JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.i
-.PHONY : JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.i
-
-JUCE/modules/juce_audio_devices/juce_audio_devices.s: JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.s
-.PHONY : JUCE/modules/juce_audio_devices/juce_audio_devices.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.s
-.PHONY : JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.s
-
-JUCE/modules/juce_audio_formats/juce_audio_formats.o: JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o
-.PHONY : JUCE/modules/juce_audio_formats/juce_audio_formats.o
-
-# target to build an object file
-JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o
-.PHONY : JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o
-
-JUCE/modules/juce_audio_formats/juce_audio_formats.i: JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.i
-.PHONY : JUCE/modules/juce_audio_formats/juce_audio_formats.i
-
-# target to preprocess a source file
-JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.i
-.PHONY : JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.i
-
-JUCE/modules/juce_audio_formats/juce_audio_formats.s: JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.s
-.PHONY : JUCE/modules/juce_audio_formats/juce_audio_formats.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.s
-.PHONY : JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.s
-
-JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.o: JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.o
-
-# target to build an object file
-JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/juce_lv2_helper.dir/build.make CMakeFiles/juce_lv2_helper.dir/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o
-
-JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.i: JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.i
-
-# target to preprocess a source file
-JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/juce_lv2_helper.dir/build.make CMakeFiles/juce_lv2_helper.dir/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.i
-
-JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.s: JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/juce_lv2_helper.dir/build.make CMakeFiles/juce_lv2_helper.dir/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.s
-
-JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.o: JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.o
-
-# target to build an object file
-JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_vst3_helper.dir/build.make CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o
-
-JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.i: JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.i
-
-# target to preprocess a source file
-JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_vst3_helper.dir/build.make CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.i
-
-JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.s: JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_vst3_helper.dir/build.make CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.s
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.o: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.o
-
-# target to build an object file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.o
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.i: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.i
-
-# target to preprocess a source file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.i
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.s: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.s
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.o: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.o
-
-# target to build an object file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.i: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.i
-
-# target to preprocess a source file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.s: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.o: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.o
-
-# target to build an object file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.i: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.i
-
-# target to preprocess a source file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.s: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.o: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.o
-
-# target to build an object file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.o
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.i: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.i
-
-# target to preprocess a source file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.i
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.s: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.s
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.o: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.o
-
-# target to build an object file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.i: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.i
-
-# target to preprocess a source file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.s: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.o: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.o
-
-# target to build an object file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.i: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.i
-
-# target to preprocess a source file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.s: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.o: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.o
-
-# target to build an object file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.o
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.i: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.i
-
-# target to preprocess a source file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.i
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.s: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.s
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.o: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.o
-
-# target to build an object file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.o
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.o
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.i: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.i
-
-# target to preprocess a source file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.i
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.i
-
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.s: JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.s
-.PHONY : JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.s
-
-JUCE/modules/juce_audio_processors/juce_audio_processors.o: JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o
-.PHONY : JUCE/modules/juce_audio_processors/juce_audio_processors.o
-
-# target to build an object file
-JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o
-.PHONY : JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o
-
-JUCE/modules/juce_audio_processors/juce_audio_processors.i: JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.i
-.PHONY : JUCE/modules/juce_audio_processors/juce_audio_processors.i
-
-# target to preprocess a source file
-JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.i
-.PHONY : JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.i
-
-JUCE/modules/juce_audio_processors/juce_audio_processors.s: JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.s
-.PHONY : JUCE/modules/juce_audio_processors/juce_audio_processors.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.s
-.PHONY : JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.s
-
-JUCE/modules/juce_audio_processors/juce_audio_processors_ara.o: JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
-.PHONY : JUCE/modules/juce_audio_processors/juce_audio_processors_ara.o
-
-# target to build an object file
-JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
-.PHONY : JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
-
-JUCE/modules/juce_audio_processors/juce_audio_processors_ara.i: JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
-.PHONY : JUCE/modules/juce_audio_processors/juce_audio_processors_ara.i
-
-# target to preprocess a source file
-JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
-.PHONY : JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
-
-JUCE/modules/juce_audio_processors/juce_audio_processors_ara.s: JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
-.PHONY : JUCE/modules/juce_audio_processors/juce_audio_processors_ara.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
-.PHONY : JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
-
-JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.o: JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
-.PHONY : JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.o
-
-# target to build an object file
-JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
-.PHONY : JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
-
-JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.i: JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
-.PHONY : JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.i
-
-# target to preprocess a source file
-JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
-.PHONY : JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
-
-JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.s: JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
-.PHONY : JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
-.PHONY : JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
-
-JUCE/modules/juce_audio_utils/juce_audio_utils.o: JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o
-.PHONY : JUCE/modules/juce_audio_utils/juce_audio_utils.o
-
-# target to build an object file
-JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o
-.PHONY : JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o
-
-JUCE/modules/juce_audio_utils/juce_audio_utils.i: JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.i
-.PHONY : JUCE/modules/juce_audio_utils/juce_audio_utils.i
-
-# target to preprocess a source file
-JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.i
-.PHONY : JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.i
-
-JUCE/modules/juce_audio_utils/juce_audio_utils.s: JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.s
-.PHONY : JUCE/modules/juce_audio_utils/juce_audio_utils.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.s
-.PHONY : JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.s
-
-JUCE/modules/juce_core/juce_core.o: JUCE/modules/juce_core/juce_core.cpp.o
-.PHONY : JUCE/modules/juce_core/juce_core.o
-
-# target to build an object file
-JUCE/modules/juce_core/juce_core.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core.cpp.o
-.PHONY : JUCE/modules/juce_core/juce_core.cpp.o
-
-JUCE/modules/juce_core/juce_core.i: JUCE/modules/juce_core/juce_core.cpp.i
-.PHONY : JUCE/modules/juce_core/juce_core.i
-
-# target to preprocess a source file
-JUCE/modules/juce_core/juce_core.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core.cpp.i
-.PHONY : JUCE/modules/juce_core/juce_core.cpp.i
-
-JUCE/modules/juce_core/juce_core.s: JUCE/modules/juce_core/juce_core.cpp.s
-.PHONY : JUCE/modules/juce_core/juce_core.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_core/juce_core.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core.cpp.s
-.PHONY : JUCE/modules/juce_core/juce_core.cpp.s
-
-JUCE/modules/juce_core/juce_core_CompilationTime.o: JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
-.PHONY : JUCE/modules/juce_core/juce_core_CompilationTime.o
-
-# target to build an object file
-JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
-.PHONY : JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
-
-JUCE/modules/juce_core/juce_core_CompilationTime.i: JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
-.PHONY : JUCE/modules/juce_core/juce_core_CompilationTime.i
-
-# target to preprocess a source file
-JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
-.PHONY : JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
-
-JUCE/modules/juce_core/juce_core_CompilationTime.s: JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
-.PHONY : JUCE/modules/juce_core/juce_core_CompilationTime.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
-.PHONY : JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
-
-JUCE/modules/juce_data_structures/juce_data_structures.o: JUCE/modules/juce_data_structures/juce_data_structures.cpp.o
-.PHONY : JUCE/modules/juce_data_structures/juce_data_structures.o
-
-# target to build an object file
-JUCE/modules/juce_data_structures/juce_data_structures.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o
-.PHONY : JUCE/modules/juce_data_structures/juce_data_structures.cpp.o
-
-JUCE/modules/juce_data_structures/juce_data_structures.i: JUCE/modules/juce_data_structures/juce_data_structures.cpp.i
-.PHONY : JUCE/modules/juce_data_structures/juce_data_structures.i
-
-# target to preprocess a source file
-JUCE/modules/juce_data_structures/juce_data_structures.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_data_structures/juce_data_structures.cpp.i
-.PHONY : JUCE/modules/juce_data_structures/juce_data_structures.cpp.i
-
-JUCE/modules/juce_data_structures/juce_data_structures.s: JUCE/modules/juce_data_structures/juce_data_structures.cpp.s
-.PHONY : JUCE/modules/juce_data_structures/juce_data_structures.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_data_structures/juce_data_structures.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_data_structures/juce_data_structures.cpp.s
-.PHONY : JUCE/modules/juce_data_structures/juce_data_structures.cpp.s
-
-JUCE/modules/juce_dsp/juce_dsp.o: JUCE/modules/juce_dsp/juce_dsp.cpp.o
-.PHONY : JUCE/modules/juce_dsp/juce_dsp.o
-
-# target to build an object file
-JUCE/modules/juce_dsp/juce_dsp.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_dsp/juce_dsp.cpp.o
-.PHONY : JUCE/modules/juce_dsp/juce_dsp.cpp.o
-
-JUCE/modules/juce_dsp/juce_dsp.i: JUCE/modules/juce_dsp/juce_dsp.cpp.i
-.PHONY : JUCE/modules/juce_dsp/juce_dsp.i
-
-# target to preprocess a source file
-JUCE/modules/juce_dsp/juce_dsp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_dsp/juce_dsp.cpp.i
-.PHONY : JUCE/modules/juce_dsp/juce_dsp.cpp.i
-
-JUCE/modules/juce_dsp/juce_dsp.s: JUCE/modules/juce_dsp/juce_dsp.cpp.s
-.PHONY : JUCE/modules/juce_dsp/juce_dsp.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_dsp/juce_dsp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_dsp/juce_dsp.cpp.s
-.PHONY : JUCE/modules/juce_dsp/juce_dsp.cpp.s
-
-JUCE/modules/juce_events/juce_events.o: JUCE/modules/juce_events/juce_events.cpp.o
-.PHONY : JUCE/modules/juce_events/juce_events.o
-
-# target to build an object file
-JUCE/modules/juce_events/juce_events.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_events/juce_events.cpp.o
-.PHONY : JUCE/modules/juce_events/juce_events.cpp.o
-
-JUCE/modules/juce_events/juce_events.i: JUCE/modules/juce_events/juce_events.cpp.i
-.PHONY : JUCE/modules/juce_events/juce_events.i
-
-# target to preprocess a source file
-JUCE/modules/juce_events/juce_events.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_events/juce_events.cpp.i
-.PHONY : JUCE/modules/juce_events/juce_events.cpp.i
-
-JUCE/modules/juce_events/juce_events.s: JUCE/modules/juce_events/juce_events.cpp.s
-.PHONY : JUCE/modules/juce_events/juce_events.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_events/juce_events.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_events/juce_events.cpp.s
-.PHONY : JUCE/modules/juce_events/juce_events.cpp.s
-
-JUCE/modules/juce_graphics/juce_graphics.o: JUCE/modules/juce_graphics/juce_graphics.cpp.o
-.PHONY : JUCE/modules/juce_graphics/juce_graphics.o
-
-# target to build an object file
-JUCE/modules/juce_graphics/juce_graphics.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics.cpp.o
-.PHONY : JUCE/modules/juce_graphics/juce_graphics.cpp.o
-
-JUCE/modules/juce_graphics/juce_graphics.i: JUCE/modules/juce_graphics/juce_graphics.cpp.i
-.PHONY : JUCE/modules/juce_graphics/juce_graphics.i
-
-# target to preprocess a source file
-JUCE/modules/juce_graphics/juce_graphics.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics.cpp.i
-.PHONY : JUCE/modules/juce_graphics/juce_graphics.cpp.i
-
-JUCE/modules/juce_graphics/juce_graphics.s: JUCE/modules/juce_graphics/juce_graphics.cpp.s
-.PHONY : JUCE/modules/juce_graphics/juce_graphics.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_graphics/juce_graphics.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics.cpp.s
-.PHONY : JUCE/modules/juce_graphics/juce_graphics.cpp.s
-
-JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.o: JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
-.PHONY : JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.o
-
-# target to build an object file
-JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
-.PHONY : JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
-
-JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.i: JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
-.PHONY : JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.i
-
-# target to preprocess a source file
-JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
-.PHONY : JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
-
-JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.s: JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
-.PHONY : JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
-.PHONY : JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
-
-JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.o: JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
-.PHONY : JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.o
-
-# target to build an object file
-JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
-.PHONY : JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
-
-JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.i: JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
-.PHONY : JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.i
-
-# target to preprocess a source file
-JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
-.PHONY : JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
-
-JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.s: JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
-.PHONY : JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
-.PHONY : JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
-
-JUCE/modules/juce_gui_basics/juce_gui_basics.o: JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o
-.PHONY : JUCE/modules/juce_gui_basics/juce_gui_basics.o
-
-# target to build an object file
-JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o
-.PHONY : JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o
-
-JUCE/modules/juce_gui_basics/juce_gui_basics.i: JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.i
-.PHONY : JUCE/modules/juce_gui_basics/juce_gui_basics.i
-
-# target to preprocess a source file
-JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.i
-.PHONY : JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.i
-
-JUCE/modules/juce_gui_basics/juce_gui_basics.s: JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.s
-.PHONY : JUCE/modules/juce_gui_basics/juce_gui_basics.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.s
-.PHONY : JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.s
-
-JUCE/modules/juce_gui_extra/juce_gui_extra.o: JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o
-.PHONY : JUCE/modules/juce_gui_extra/juce_gui_extra.o
-
-# target to build an object file
-JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o
-.PHONY : JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o
-
-JUCE/modules/juce_gui_extra/juce_gui_extra.i: JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.i
-.PHONY : JUCE/modules/juce_gui_extra/juce_gui_extra.i
-
-# target to preprocess a source file
-JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.i
-.PHONY : JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.i
-
-JUCE/modules/juce_gui_extra/juce_gui_extra.s: JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.s
-.PHONY : JUCE/modules/juce_gui_extra/juce_gui_extra.s
-
-# target to generate assembly for a file
-JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.s
-.PHONY : JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.s
-
 UniversalCompressor.o: UniversalCompressor.cpp.o
 .PHONY : UniversalCompressor.o
 
@@ -983,6 +311,678 @@ UniversalCompressor.s: UniversalCompressor.cpp.s
 UniversalCompressor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/UniversalCompressor.cpp.s
 .PHONY : UniversalCompressor.cpp.s
+
+home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.o: home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o
+
+home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.i: home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.i
+
+home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.s: home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.s
+
+home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.o: home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o
+
+home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.i: home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.i
+
+home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.s: home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.s
+
+home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.o: home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o
+
+home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.i: home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.i
+
+home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.s: home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.s
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.o: home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/juce_lv2_helper.dir/build.make CMakeFiles/juce_lv2_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.i: home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/juce_lv2_helper.dir/build.make CMakeFiles/juce_lv2_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.i
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.s: home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/juce_lv2_helper.dir/build.make CMakeFiles/juce_lv2_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.s
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.o: home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_vst3_helper.dir/build.make CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.i: home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_vst3_helper.dir/build.make CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.i
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.s: home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_vst3_helper.dir/build.make CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.s
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.o: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.o
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.i: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.i
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.s: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.s
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.o: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.i: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.s: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.o: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.i: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.s: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.o: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.o
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.i: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.i
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.s: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.s
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.o: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.i: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.s: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.o: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.i: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.s: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.o: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.o
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.i: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.i
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.s: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.s
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.o: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.o
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.i: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.i
+
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.s: home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_LV2.dir/build.make CMakeFiles/UniversalCompressor_LV2.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor_VST3.dir/build.make CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.s
+
+home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.o: home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o
+
+home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.i: home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.i
+
+home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.s: home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.s
+
+home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.o: home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
+
+home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.i: home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
+
+home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.s: home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
+
+home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.o: home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
+
+home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.i: home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
+
+home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.s: home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
+
+home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.o: home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o
+
+home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.i: home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.i
+
+home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.s: home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.s
+
+home/marc/projects/JUCE/modules/juce_core/juce_core.o: home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_core/juce_core.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.o
+
+home/marc/projects/JUCE/modules/juce_core/juce_core.i: home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_core/juce_core.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.i
+
+home/marc/projects/JUCE/modules/juce_core/juce_core.s: home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_core/juce_core.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_core/juce_core.cpp.s
+
+home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.o: home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
+
+home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.i: home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
+
+home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.s: home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
+
+home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.o: home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o
+
+home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.i: home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.i
+
+home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.s: home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.cpp.s
+
+home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.o: home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.o
+
+home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.i: home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.i
+
+home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.s: home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.cpp.s
+
+home/marc/projects/JUCE/modules/juce_events/juce_events.o: home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_events/juce_events.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.o
+
+home/marc/projects/JUCE/modules/juce_events/juce_events.i: home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_events/juce_events.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.i
+
+home/marc/projects/JUCE/modules/juce_events/juce_events.s: home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_events/juce_events.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_events/juce_events.cpp.s
+
+home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.o: home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.o
+
+home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.i: home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.i
+
+home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.s: home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.cpp.s
+
+home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.o: home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+
+home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.i: home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
+
+home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.s: home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
+
+home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.o: home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+.PHONY : home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+.PHONY : home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+
+home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.i: home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
+.PHONY : home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
+.PHONY : home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
+
+home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.s: home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
+.PHONY : home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
+.PHONY : home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
+
+home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.o: home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o
+
+home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.i: home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.i
+
+home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.s: home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.s
+
+home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.o: home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.o
+
+# target to build an object file
+home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o
+.PHONY : home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o
+
+home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.i: home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.i
+
+# target to preprocess a source file
+home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.i
+.PHONY : home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.i
+
+home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.s: home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.s
+
+# target to generate assembly for a file
+home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UniversalCompressor.dir/build.make CMakeFiles/UniversalCompressor.dir/home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.s
+.PHONY : home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.s
 
 # Help Target
 help:
@@ -1008,90 +1008,90 @@ help:
 	@echo "... EnhancedCompressorEditor.o"
 	@echo "... EnhancedCompressorEditor.i"
 	@echo "... EnhancedCompressorEditor.s"
-	@echo "... JUCE/modules/juce_audio_basics/juce_audio_basics.o"
-	@echo "... JUCE/modules/juce_audio_basics/juce_audio_basics.i"
-	@echo "... JUCE/modules/juce_audio_basics/juce_audio_basics.s"
-	@echo "... JUCE/modules/juce_audio_devices/juce_audio_devices.o"
-	@echo "... JUCE/modules/juce_audio_devices/juce_audio_devices.i"
-	@echo "... JUCE/modules/juce_audio_devices/juce_audio_devices.s"
-	@echo "... JUCE/modules/juce_audio_formats/juce_audio_formats.o"
-	@echo "... JUCE/modules/juce_audio_formats/juce_audio_formats.i"
-	@echo "... JUCE/modules/juce_audio_formats/juce_audio_formats.s"
-	@echo "... JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.o"
-	@echo "... JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.i"
-	@echo "... JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.s"
-	@echo "... JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.o"
-	@echo "... JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.i"
-	@echo "... JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.s"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.o"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.i"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.s"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.o"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.i"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.s"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.o"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.i"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.s"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.o"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.i"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.s"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.o"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.i"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.s"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.o"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.i"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.s"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.o"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.i"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.s"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.o"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.i"
-	@echo "... JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.s"
-	@echo "... JUCE/modules/juce_audio_processors/juce_audio_processors.o"
-	@echo "... JUCE/modules/juce_audio_processors/juce_audio_processors.i"
-	@echo "... JUCE/modules/juce_audio_processors/juce_audio_processors.s"
-	@echo "... JUCE/modules/juce_audio_processors/juce_audio_processors_ara.o"
-	@echo "... JUCE/modules/juce_audio_processors/juce_audio_processors_ara.i"
-	@echo "... JUCE/modules/juce_audio_processors/juce_audio_processors_ara.s"
-	@echo "... JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.o"
-	@echo "... JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.i"
-	@echo "... JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.s"
-	@echo "... JUCE/modules/juce_audio_utils/juce_audio_utils.o"
-	@echo "... JUCE/modules/juce_audio_utils/juce_audio_utils.i"
-	@echo "... JUCE/modules/juce_audio_utils/juce_audio_utils.s"
-	@echo "... JUCE/modules/juce_core/juce_core.o"
-	@echo "... JUCE/modules/juce_core/juce_core.i"
-	@echo "... JUCE/modules/juce_core/juce_core.s"
-	@echo "... JUCE/modules/juce_core/juce_core_CompilationTime.o"
-	@echo "... JUCE/modules/juce_core/juce_core_CompilationTime.i"
-	@echo "... JUCE/modules/juce_core/juce_core_CompilationTime.s"
-	@echo "... JUCE/modules/juce_data_structures/juce_data_structures.o"
-	@echo "... JUCE/modules/juce_data_structures/juce_data_structures.i"
-	@echo "... JUCE/modules/juce_data_structures/juce_data_structures.s"
-	@echo "... JUCE/modules/juce_dsp/juce_dsp.o"
-	@echo "... JUCE/modules/juce_dsp/juce_dsp.i"
-	@echo "... JUCE/modules/juce_dsp/juce_dsp.s"
-	@echo "... JUCE/modules/juce_events/juce_events.o"
-	@echo "... JUCE/modules/juce_events/juce_events.i"
-	@echo "... JUCE/modules/juce_events/juce_events.s"
-	@echo "... JUCE/modules/juce_graphics/juce_graphics.o"
-	@echo "... JUCE/modules/juce_graphics/juce_graphics.i"
-	@echo "... JUCE/modules/juce_graphics/juce_graphics.s"
-	@echo "... JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.o"
-	@echo "... JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.i"
-	@echo "... JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.s"
-	@echo "... JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.o"
-	@echo "... JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.i"
-	@echo "... JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.s"
-	@echo "... JUCE/modules/juce_gui_basics/juce_gui_basics.o"
-	@echo "... JUCE/modules/juce_gui_basics/juce_gui_basics.i"
-	@echo "... JUCE/modules/juce_gui_basics/juce_gui_basics.s"
-	@echo "... JUCE/modules/juce_gui_extra/juce_gui_extra.o"
-	@echo "... JUCE/modules/juce_gui_extra/juce_gui_extra.i"
-	@echo "... JUCE/modules/juce_gui_extra/juce_gui_extra.s"
 	@echo "... UniversalCompressor.o"
 	@echo "... UniversalCompressor.i"
 	@echo "... UniversalCompressor.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_basics/juce_audio_basics.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_devices/juce_audio_devices.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_formats/juce_audio_formats.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_audio_utils/juce_audio_utils.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_core/juce_core.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_core/juce_core.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_core/juce_core.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_core/juce_core_CompilationTime.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_data_structures/juce_data_structures.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_dsp/juce_dsp.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_events/juce_events.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_events/juce_events.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_events/juce_events.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_graphics/juce_graphics.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_gui_basics/juce_gui_basics.s"
+	@echo "... home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.o"
+	@echo "... home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.i"
+	@echo "... home/marc/projects/JUCE/modules/juce_gui_extra/juce_gui_extra.s"
 .PHONY : help
 
 

@@ -54,11 +54,11 @@ endif()
 
 check_required_components("JUCE")
 
-set(JUCE_MODULES_DIR "/home/marc/projects/Universal-Compressor/JUCE/modules" CACHE INTERNAL
+set(JUCE_MODULES_DIR "/home/marc/projects/JUCE/modules" CACHE INTERNAL
     "The path to JUCE modules")
 
-include("/home/marc/projects/Universal-Compressor/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake")
-include("/home/marc/projects/Universal-Compressor/JUCE/extras/Build/CMake/JUCEUtils.cmake")
+include("/home/marc/projects/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake")
+include("/home/marc/projects/JUCE/extras/Build/CMake/JUCEUtils.cmake")
 
 set(_juce_modules
     juce_analytics
@@ -113,7 +113,7 @@ unset(_targets_defined)
 unset(_targets_expected)
 
 foreach(_juce_module IN LISTS _juce_modules)
-    juce_add_module("/home/marc/projects/Universal-Compressor/JUCE/modules/${_juce_module}" ALIAS_NAMESPACE juce)
+    juce_add_module("/home/marc/projects/JUCE/modules/${_juce_module}" ALIAS_NAMESPACE juce)
 endforeach()
 
 unset(_juce_modules)

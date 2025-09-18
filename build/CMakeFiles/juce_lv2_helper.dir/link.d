@@ -2,7 +2,7 @@ juce_lv2_helper: \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o \
-  CMakeFiles/juce_lv2_helper.dir/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o \
+  CMakeFiles/juce_lv2_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libdl.a \
   /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libm.so \
@@ -38,7 +38,7 @@ juce_lv2_helper: \
 
 /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o:
 
-CMakeFiles/juce_lv2_helper.dir/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o:
+CMakeFiles/juce_lv2_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/LV2/juce_LV2ManifestHelper.cpp.o:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libdl.a:
 

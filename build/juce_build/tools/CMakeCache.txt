@@ -284,7 +284,7 @@ JUCE_IS_TOP_LEVEL:STATIC=ON
 JUCE_MODULES_ONLY:BOOL=OFF
 
 //Value Computed by CMake
-JUCE_SOURCE_DIR:STATIC=/home/marc/projects/Universal-Compressor/JUCE
+JUCE_SOURCE_DIR:STATIC=/home/marc/projects/JUCE
 
 //Location that overrides the default directory where our FindWebView2
 // script is looking for the *Microsoft.Web.WebView2* directory
@@ -401,7 +401,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/marc/projects/Universal-Compressor/JUCE
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/marc/projects/JUCE
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=0
 //ADVANCED property for variable: CMAKE_LINKER
@@ -502,7 +502,7 @@ JUCE_BROWSER_LINUX_DEPS_webkit2gtk-4.0_LIBDIR:INTERNAL=
 JUCE_BROWSER_LINUX_DEPS_webkit2gtk-4.0_PREFIX:INTERNAL=
 JUCE_BROWSER_LINUX_DEPS_webkit2gtk-4.0_VERSION:INTERNAL=
 //The path to the folder holding this file and other resources
-JUCE_CMAKE_UTILS_DIR:INTERNAL=/home/marc/projects/Universal-Compressor/JUCE/extras/Build/CMake
+JUCE_CMAKE_UTILS_DIR:INTERNAL=/home/marc/projects/JUCE/extras/Build/CMake
 JUCE_CURL_LINUX_DEPS_CFLAGS:INTERNAL=-I/usr/include;-DWITH_GZFILEOP
 JUCE_CURL_LINUX_DEPS_CFLAGS_I:INTERNAL=
 JUCE_CURL_LINUX_DEPS_CFLAGS_OTHER:INTERNAL=-DWITH_GZFILEOP
@@ -539,7 +539,7 @@ JUCE_CURL_LINUX_DEPS_libcurl_LIBDIR:INTERNAL=
 JUCE_CURL_LINUX_DEPS_libcurl_PREFIX:INTERNAL=
 JUCE_CURL_LINUX_DEPS_libcurl_VERSION:INTERNAL=
 //The path to JUCE modules
-JUCE_MODULES_DIR:INTERNAL=/home/marc/projects/Universal-Compressor/JUCE/modules
+JUCE_MODULES_DIR:INTERNAL=/home/marc/projects/JUCE/modules
 //The target architecture, used to name internal folders in VST3
 // bundles, and to locate bundled libraries in modules
 JUCE_TARGET_ARCHITECTURE:INTERNAL=x86_64
@@ -563,7 +563,7 @@ __pkg_config_checked_juce_graphics_LINUX_DEPS:INTERNAL=1
 __pkg_config_checked_juce_opengl_LINUX_DEPS:INTERNAL=1
 __pkg_config_checked_package_to_be_found:INTERNAL=1
 //Result of TRY_COMPILE
-compile_result:INTERNAL=TRUE
+compile_result:INTERNAL=FALSE
 juce_audio_devices_LINUX_DEPS_CFLAGS:INTERNAL=-I/usr/include
 juce_audio_devices_LINUX_DEPS_CFLAGS_I:INTERNAL=
 juce_audio_devices_LINUX_DEPS_CFLAGS_OTHER:INTERNAL=

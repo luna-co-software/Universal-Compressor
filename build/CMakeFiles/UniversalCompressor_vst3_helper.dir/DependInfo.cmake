@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/marc/projects/Universal-Compressor/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp" "CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o" "gcc" "CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o.d"
+  "/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp" "CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o" "gcc" "CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o.d"
   "" "UniversalCompressor_vst3_helper" "gcc" "CMakeFiles/UniversalCompressor_vst3_helper.dir/link.d"
   )
 

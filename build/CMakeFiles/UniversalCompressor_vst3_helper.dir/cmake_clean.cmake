@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/UniversalCompressor_vst3_helper.dir/link.d"
-  "CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o"
-  "CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o.d"
+  "CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o"
+  "CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o.d"
   "UniversalCompressor_vst3_helper"
   "UniversalCompressor_vst3_helper.pdb"
 )

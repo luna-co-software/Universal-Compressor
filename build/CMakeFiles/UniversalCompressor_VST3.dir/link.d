@@ -1,14 +1,14 @@
 UniversalCompressor_artefacts/VST3/Universal Compressor.vst3/Contents/x86_64-linux/Universal Compressor.so: \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/crtbeginS.o \
-  CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.o \
-  CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o \
-  CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o \
-  CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.o \
-  CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o \
-  CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o \
-  CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.o \
-  CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.o \
+  CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.o \
+  CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o \
+  CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o \
+  CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.o \
+  CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o \
+  CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o \
+  CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.o \
+  CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.o \
   UniversalCompressor_artefacts/libUniversal Compressor_SharedCode.a \
   /usr/lib64/libfontconfig.so \
   /usr/lib64/libfreetype.so \
@@ -45,21 +45,21 @@ UniversalCompressor_artefacts/VST3/Universal Compressor.vst3/Contents/x86_64-lin
 
 /usr/lib/gcc/x86_64-redhat-linux/15/crtbeginS.o:
 
-CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.o:
+CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.o:
 
-CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o:
+CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o:
 
-CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o:
+CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o:
 
-CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.o:
+CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.cpp.o:
 
-CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o:
+CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o:
 
-CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o:
+CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o:
 
-CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.o:
+CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.o:
 
-CMakeFiles/UniversalCompressor_VST3.dir/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.o:
+CMakeFiles/UniversalCompressor_VST3.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.o:
 
 UniversalCompressor_artefacts/libUniversal Compressor_SharedCode.a:
 

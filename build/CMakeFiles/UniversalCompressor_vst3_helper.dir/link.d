@@ -2,7 +2,7 @@ UniversalCompressor_vst3_helper: \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o \
-  CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o \
+  CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libm.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libm.so \
@@ -37,7 +37,7 @@ UniversalCompressor_vst3_helper: \
 
 /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o:
 
-CMakeFiles/UniversalCompressor_vst3_helper.dir/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o:
+CMakeFiles/UniversalCompressor_vst3_helper.dir/home/marc/projects/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp.o:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so:
 
